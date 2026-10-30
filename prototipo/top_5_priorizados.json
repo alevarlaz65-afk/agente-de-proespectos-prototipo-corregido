@@ -1,0 +1,128 @@
+[
+  {
+    "handle": "emergent-wisdom",
+    "canal": "GitHub",
+    "url_fuente": "https://github.com/emergent-wisdom",
+    "fecha_verificacion": "2026-10-30",
+    "estado_verificacion": "VERIFICADO_OK",
+    "criterios_cumplidos": [
+      "Verificación HTTP 200 OK en perfil",
+      "Posee 21 repositorios públicos (Mínimo 3)",
+      "Demuestra stack activo de IA/agentes/integración",
+      "Señal comercial clara para Indie Builder / AI Developer (Lab Seat)"
+    ],
+    "tipo_comprador": "Indie Builder / AI Developer (Lab Seat)",
+    "repos_publicos": 21,
+    "stack_detectado": [
+      "JavaScript",
+      "Python",
+      "TypeScript",
+      "TeX"
+    ],
+    "por_que_compraria": "Mantenedor de 'meaning-model'. Requiere staging hosted 24/7.",
+    "objecion_esperada": "Prefiero seguir ejecutando localmente en mi PC o servidor personal [HIPÓTESIS].",
+    "oferta_sugerida": "$6 Day Pass / $15 Trial",
+    "nivel_confianza": "Alto",
+    "mejor_siguiente_accion": "Ofrecer Day Pass ($6) para aislar ejecuciones sin agotar RAM local."
+  },
+  {
+    "handle": "vargHQ",
+    "canal": "GitHub",
+    "url_fuente": "https://github.com/vargHQ",
+    "fecha_verificacion": "2026-10-30",
+    "estado_verificacion": "VERIFICADO_OK",
+    "criterios_cumplidos": [
+      "Verificación HTTP 200 OK en perfil",
+      "Posee 12 repositorios públicos (Mínimo 3)",
+      "Demuestra stack activo de IA/agentes/integración",
+      "Señal comercial clara para Indie Builder / AI Developer (Lab Seat)"
+    ],
+    "tipo_comprador": "Indie Builder / AI Developer (Lab Seat)",
+    "repos_publicos": 12,
+    "stack_detectado": [
+      "TypeScript",
+      "HTML",
+      "MDX"
+    ],
+    "por_que_compraria": "Mantenedor de 'skills'. Requiere staging hosted 24/7.",
+    "objecion_esperada": "Prefiero seguir ejecutando localmente en mi PC o servidor personal [HIPÓTESIS].",
+    "oferta_sugerida": "$6 Day Pass / $15 Trial",
+    "nivel_confianza": "Alto",
+    "mejor_siguiente_accion": "Ofrecer Day Pass ($6) para aislar ejecuciones sin agotar RAM local."
+  },
+  {
+    "handle": "Fmarzochi",
+    "canal": "GitHub",
+    "url_fuente": "https://github.com/Fmarzochi",
+    "fecha_verificacion": "2026-10-30",
+    "estado_verificacion": "VERIFICADO_OK",
+    "criterios_cumplidos": [
+      "Verificación HTTP 200 OK en perfil",
+      "Posee 63 repositorios públicos (Mínimo 3)",
+      "Demuestra stack activo de IA/agentes/integración",
+      "Señal comercial clara para Indie Builder / AI Developer (Lab Seat)"
+    ],
+    "tipo_comprador": "Indie Builder / AI Developer (Lab Seat)",
+    "repos_publicos": 63,
+    "stack_detectado": [
+      "JavaScript",
+      "TypeScript"
+    ],
+    "por_que_compraria": "Mantenedor de 'EGC'. Requiere staging hosted 24/7.",
+    "objecion_esperada": "Prefiero seguir ejecutando localmente en mi PC o servidor personal [HIPÓTESIS].",
+    "oferta_sugerida": "$6 Day Pass / $15 Trial",
+    "nivel_confianza": "Alto",
+    "mejor_siguiente_accion": "Ofrecer Day Pass ($6) para aislar ejecuciones sin agotar RAM local."
+  },
+  {
+    "handle": "ashlrai",
+    "canal": "GitHub",
+    "url_fuente": "https://github.com/ashlrai",
+    "fecha_verificacion": "2026-10-30",
+    "estado_verificacion": "VERIFICADO_OK",
+    "criterios_cumplidos": [
+      "Verificación HTTP 200 OK en perfil",
+      "Posee 29 repositorios públicos (Mínimo 3)",
+      "Demuestra stack activo de IA/agentes/integración",
+      "Señal comercial clara para Indie Builder / AI Developer (Lab Seat)"
+    ],
+    "tipo_comprador": "Indie Builder / AI Developer (Lab Seat)",
+    "repos_publicos": 29,
+    "stack_detectado": [
+      "Rust",
+      "Python",
+      "TypeScript",
+      "Ruby"
+    ],
+    "por_que_compraria": "Mantenedor de 'ashlr-plugin'. Requiere staging hosted 24/7.",
+    "objecion_esperada": "Prefiero seguir ejecutando localmente en mi PC o servidor personal [HIPÓTESIS].",
+    "oferta_sugerida": "$6 Day Pass / $15 Trial",
+    "nivel_confianza": "Alto",
+    "mejor_siguiente_accion": "Ofrecer Day Pass ($6) para aislar ejecuciones sin agotar RAM local."
+  },
+  {
+    "handle": "spacelabdevteam-hub",
+    "canal": "GitHub",
+    "url_fuente": "https://github.com/spacelabdevteam-hub",
+    "fecha_verificacion": "2026-10-30",
+    "estado_verificacion": "VERIFICADO_OK",
+    "criterios_cumplidos": [
+      "Verificación HTTP 200 OK en perfil",
+      "Posee 7 repositorios públicos (Mínimo 3)",
+      "Demuestra stack activo de IA/agentes/integración",
+      "Señal comercial clara para Indie Builder / AI Developer (Lab Seat)"
+    ],
+    "tipo_comprador": "Indie Builder / AI Developer (Lab Seat)",
+    "repos_publicos": 7,
+    "stack_detectado": [
+      "JavaScript",
+      "HTML",
+      "Jupyter Notebook"
+    ],
+    "por_que_compraria": "Mantenedor de 'space-journey-mcp-engine'. Requiere staging hosted 24/7.",
+    "objecion_esperada": "Prefiero seguir ejecutando localmente en mi PC o servidor personal [HIPÓTESIS].",
+    "oferta_sugerida": "$6 Day Pass / $15 Trial",
+    "nivel_confianza": "Alto",
+    "mejor_siguiente_accion": "Ofrecer Day Pass ($6) para aislar ejecuciones sin agotar RAM local."
+  }
+]

@@ -1,0 +1,20 @@
+[
+  {
+    "handle": "skulitom",
+    "profile_url": "https://github.com/skulitom",
+    "fecha_evaluacion": "2026-10-30 16:27:37",
+    "motivo_descarte": "Criterio Insuficiente: No se detectaron señales activas de agentes, MCP o automatización en repos recientes."
+  },
+  {
+    "handle": "omothm",
+    "profile_url": "https://github.com/omothm",
+    "fecha_evaluacion": "2026-10-30 16:30:10",
+    "motivo_descarte": "Criterio Insuficiente: No se detectaron señales activas de agentes, MCP o automatización en repos recientes."
+  },
+  {
+    "handle": "geekychris",
+    "profile_url": "https://github.com/geekychris",
+    "fecha_evaluacion": "2026-10-30 16:30:30",
+    "motivo_descarte": "Error de API al consultar metadatos del usuario."
+  }
+]
