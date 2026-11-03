@@ -68,11 +68,27 @@ def api_request(endpoint: str) -> Any:
 
     try:
         with urllib.request.urlopen(req) as response:
-            if response.status == 200:
-                return json.loads(response.read().decode('utf-8'))
-    except Exception as e:
-        return None
-    return None
+            if response.status != 200:
+                raise RuntimeError(
+                    f"Respuesta HTTP inesperada: {response.status} al consultar {url}"
+                )
+
+            return json.loads(response.read().decode("utf-8"))
+
+    except urllib.error.HTTPError as e:
+        raise RuntimeError(
+            f"Error HTTP {e.code} ({e.reason}) al consultar {url}"
+        ) from e
+
+    except urllib.error.URLError as e:
+        raise RuntimeError(
+            f"Fallo de conexión al consultar la API de GitHub: {e.reason}"
+        ) from e
+
+    except (json.JSONDecodeError, UnicodeDecodeError) as e:
+        raise RuntimeError(
+            f"Respuesta inválida de la API de GitHub: {e}"
+        ) from e
 
 def discover_candidates(historial: Set[str]) -> List[Dict[str, Any]]:
     """PASO 1: Extrae candidatos en bruto sin asumir existencia ni calidad."""
@@ -325,4 +341,8 @@ def run_pipeline():
     print("="*60 + "\n")
 
 if __name__ == "__main__":
-    run_pipeline()
+    try:
+        run_pipeline()
+    except RuntimeError as e:
+        print(f"\n[ERROR] {e}", file=sys.stderr)
+        sys.exit(1)
