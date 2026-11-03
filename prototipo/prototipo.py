@@ -139,6 +139,28 @@ def verify_candidate(candidate: Dict[str, Any]) -> Tuple[bool, Dict[str, Any], s
     PASO 2: Evalúa existencia, métricas de actividad y coherencia de perfil.
     Retorna (es_valido, objeto_prospecto, motivo_descarte).
     """
+
+    # Validar campos obligatorios antes de procesar el candidato
+    campos_obligatorios = (
+        "handle",
+        "profile_url",
+        "repo_name",
+        "description",
+        "topics"
+    )
+
+    campos_faltantes = [
+        campo for campo in campos_obligatorios
+        if campo not in candidate
+    ]
+
+    if campos_faltantes:
+        return (
+            False,
+            {},
+            f"Candidato incompleto. Campos faltantes: {', '.join(campos_faltantes)}"
+        )
+
     username = candidate["handle"]
     profile_url = candidate["profile_url"]
     fecha_hoy = datetime.now().strftime("%Y-%m-%d")
@@ -228,22 +250,25 @@ def process_verification_gate(raw_candidates: List[Dict[str, Any]]) -> Tuple[Lis
     rejected_list = []
 
     for idx, candidate in enumerate(raw_candidates, 1):
-        print(f"  [*] [{idx}/{len(raw_candidates)}] Verificando @{candidate['handle']}...", end=" ")
+        handle = candidate.get("handle", "desconocido")
+        profile_url = candidate.get("profile_url", "")
+
+        print(f"  [*] [{idx}/{len(raw_candidates)}] Verificando @{handle}...", end=" ")
         is_ok, verified_obj, reason = verify_candidate(candidate)
-        
+
         if is_ok:
             print(f"-> [Aprobado] ({verified_obj['tipo_comprador']})")
             verified_list.append(verified_obj)
         else:
             print(f"-> [RECHAZADO] Motivo: {reason}")
             rejected_list.append({
-                "handle": candidate["handle"],
-                "profile_url": candidate["profile_url"],
+                "handle": handle,
+                "profile_url": profile_url,
                 "fecha_evaluacion": datetime.now().strftime("%Y-%m-%d %H:%M:%S"),
                 "motivo_descarte": reason
             })
-        
-        time.sleep(0.5) # Respetar límites de red
+
+        time.sleep(0.5)  # Respetar límites de red
 
     # Guardar log de rechazos para trazabilidad
     with open(REJECTED_FILE, "w", encoding="utf-8") as f:
