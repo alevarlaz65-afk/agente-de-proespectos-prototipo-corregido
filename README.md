@@ -46,13 +46,13 @@ export GITHUB_TOKEN="tu_github_token_aqui"
 ## Instrucciones de Ejecución
 
 Una vez ya instalado metase a la carpeta usando el comando:
-
+```bash
 cd prototipo
-
+```
 Ejecuta el pipeline completo desde la terminal:
-
+```bash
 python prototipo.py
-
+```
 ## 📦 Entradas y Salidas
 Entradas: Consultas parametrizadas por temas/ubicaciones en SEARCH_QUERIES y lectura de prospectos_historicos.json.
 
