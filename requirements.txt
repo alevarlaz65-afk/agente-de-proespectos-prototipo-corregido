@@ -1,0 +1,2 @@
+# Este proyecto utiliza exclusivamente módulos nativos de la biblioteca estándar de Python.
+# No requiere dependencias externas.
