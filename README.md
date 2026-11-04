@@ -6,17 +6,18 @@ Arnés ejecutable para la prospección, calificación y verificación de candida
 
 ## 🏗️ Arquitectura del Pipeline de 3 Pasos
 
-Para garantizar que solo se persistan datos reales e inspeccionados, el arnés implementa un **Gate de Verificación obligatorio** antes de escribir en la lista final:
+Para garantizar que solo se persistan datos reales e inspeccionados, el arnés implementa un Gate de Verificación obligatorio antes de escribir en la lista final:
 
-1. **Paso 1: Descubrimiento (`raw_candidates.json`)**
-   - Extrae candidatos en bruto mediante búsquedas a repositorios originales activos en la API de GitHub.
-   - Genera `raw_candidates.json` únicamente para fines de trazabilidad y auditoría.
+1. **Paso 1: Descubrimiento (raw_candidates.json)
+- Extrae candidatos en bruto mediante búsquedas a repositorios originales activos en la API de GitHub.
+- Genera raw_candidates.json únicamente para fines de trazabilidad y auditoría.
 2. **Paso 2: Gate de Verificación Obligatorio**
-   - **Verificación HTTP 200 OK:** Comprueba de forma explícita mediante una petición HTTP que el perfil existe y está activo (descarta errores `404` o cuentas eliminadas).
+   - **Verificación HTTP 200 OK:** Comprueba de forma explícita mediante una petición HTTP que el perfil existe y está activo (descarta errores 404 o cuentas eliminadas).
    - **Filtro Anti-Curiosos (Criterios Mínimos):** Valida que la cuenta posea al menos **3 repositorios públicos originales** y muestre actividad reciente en proyectos de agentes, MCP, Docker, Supabase o automatización.
    - **Log de Rechazos (`log_rechazos.json`):** Si un candidato falla cualquier criterio, se registra en este archivo especificando la razón técnica del descarte.
 3. **Paso 3: Persistencia (`prospectos_avril_lab.json` y `top_5_priorizados.json`)**
-   - Solo los candidatos que obtienen la marca `VERIFICADO_OK` se guardan en el listado entregable final con evidencia (fecha, criterios superados y nivel de confianza).
+   - Solo los candidatos que obtienen la marca `VERIFICADO_OK` se guardan en el listado entregable final con evidencia (fecha, criterios superados y nivel de confianza). (fecha, criterios superados y nivel de confianza).
+   - **Evidencia de Compra (Top 5):**  El archivo top_5_priorizados.json exige de forma estricta una cita textual exacta extraída del repositorio o biografía del prospecto, junto con la URL directa y la fecha de consulta, eliminando suposiciones.
    - Actualiza `prospectos_historicos.json` para garantizar que nunca se repita un prospecto entre ejecuciones.
 
 ---
@@ -27,15 +28,15 @@ Un candidato solo es promovido al JSON final si satisface simultáneamente tres 
 
 1. **Verificación de Accesibilidad Web (HTTP 200 OK):** La URL pública del perfil (`https://github.com/{username}`) responde con código de éxito HTTP 200.
 2. **Nivel de Actividad Comprobable:** Posee como mínimo **3 repositorios públicos originales** (no forks vacíos).
-3. **Coherencia de Stack y Propósito Commercial:** Sus repositorios recientes incluyen al menos una tecnología o tema relevante (`agent`, `mcp`, `workflow`, `docker`, `supabase`, `rag`, `automation`).
+3. **Coherencia de Stack y Propósito Comercial:** Sus repositorios recientes incluyen al menos una tecnología o tema relevante (`agent`, `mcp`, `workflow`, `docker`, `supabase`, `rag`, `automation`).
 
 ---
 
 ## 🛠️ Requisitos e Instalación
 
-* **Entorno:** Python 3.9 o superior.
-* **Dependencias:** Ninguna (utiliza exclusivamente módulos nativos de la biblioteca estándar de Python: `urllib`, `json`, `datetime`, `os`).
-* **Credenciales:** No requiere API Keys obligatorias para su funcionamiento.
+- **Entorno:** Python 3.9 o superior.
+- **Dependencias:** Ninguna (utiliza exclusivamente módulos nativos de la biblioteca estándar de Python: `urllib`, `json`, `datetime`, `os`).
+- **Credenciales:** No requiere API Keys obligatorias para su funcionamiento.
 
 ### Configuración Opcional (Evitar Rate-Limit)
 Para elevar el límite de solicitudes anónimas en la API de GitHub (de 60 a 5,000 peticiones/hora):
@@ -44,11 +45,15 @@ export GITHUB_TOKEN="tu_github_token_aqui"
 ```
 ## Instrucciones de Ejecución
 
+Una vez ya instalado metase a la carpeta usando el comando:
+
+cd prototipo
+
 Ejecuta el pipeline completo desde la terminal:
 
 python prototipo.py
 
-## Entradas y Salidas
+## 📦 Entradas y Salidas
 Entradas: Consultas parametrizadas por temas/ubicaciones en SEARCH_QUERIES y lectura de prospectos_historicos.json.
 
 Salidas Generadas:
@@ -57,32 +62,39 @@ raw_candidates.json: Candidatos descubiertos en bruto (Paso 1).
 
 log_rechazos.json: Registro de candidatos descartados con motivo técnico (Paso 2).
 
-prospectos_avril_lab.json: Entregable final de 15 prospectos verificados (Paso 3).
+prospectos_avril_lab.json: Entregable final de prospectos verificados (Volumen ≥15 garantizado).
 
-top_5_priorizados.json: Entregable con los 5 mejores prospectos priorizados (Paso 3).
+top_5_priorizados.json: Entregable con los 5 mejores prospectos priorizados con cita textual y URL exacta.
 
 prospectos_historicos.json: Memoria persistente acumulativa.
 
-## 🧪 Registro de Pruebas Realizadas
-Prueba 1 (Ejecución Limpia Inicial):
+## 📊 Métricas del Embudo y Ratio de Conversión (Ejecución de Prueba)
+Durante la prueba de validación del Gate de Verificación, el arnés procesó el siguiente volumen de datos:
 
-Resultado: Procesó 22 candidatos en bruto. El Gate aprobó 15 prospectos verificados y rechazó 7 por baja actividad o falta de stack relevante.
+Candidatos en Bruto (Descubrimiento): 73 (raw_candidates.json)
 
-Prueba 2 (Control de Memoria e Idempotencia):
+Candidatos Descartados: 54 (log_rechazos.json)
 
-Resultado: Se reejecutó el script inmediatamente. La memoria histórica detectó las 15 cuentas previamente procesadas y las omitió, buscando automáticamente candidatos adicionales no evaluados.
+Prospectos Verificados (Final): 19 (prospectos_avril_lab.json)
 
-Prueba 3 (Resiliencia ante Perfiles Inexistentes o Inactivos):
+Ratio de Conversión: 26%
+El 74% de los perfiles descubiertos fueron filtrados y rechazados correctamente por el Gate de Verificación.
 
-Resultado: Se probó la respuesta frente a handles con menos de 3 repositorios o URLs inaccesibles. El script registró correctamente la falla en log_rechazos.json sin interrumpir el pipeline.
+Motivos de rechazo documentados en el log:
+
+Perfiles con menos de 3 repositorios públicos (Inactividad).
+
+Ausencia de señales tecnológicas relevantes (Agentes, MCP, automatización).
+
+Bloqueos de Rate-Limit de la API de GitHub (Error en extracción de metadatos procesado sin interrumpir el flujo).
 
 ## 🛠️ Fallas Encontradas y Cambios Realizados
 
 | Falla Detectada | Causa Raíz | Cambio / Corrección Aplicada |
-| --- | --- | --- |
-| Inclusión de handles sin verificar | Confiabilidad ciega en los resultados en bruto de la API | Creación del **Gate de Verificación Paso 2** con peticiones HTTP explícitas y `log_rechazos.json`. |
-| Mezcla de candidatos del Ciclo 1 | No se controlaba la lista base previa | Precarga obligatoria de `LEADS_CICLO_1` dentro del conjunto de exclusión histórica. |
-| Rate-limit de API de GitHub (HTTP 403) | Límite de 60 peticiones/hora en modo anónimo | Incorporación de temporizador de pausa (`time.sleep`) y lectura opcional de `GITHUB_TOKEN`. |
+| :--- | :--- | :--- |
+| **Inclusión de handles sin verificar** | Confiabilidad ciega en los resultados en bruto de la API | Creación del **Gate de Verificación Paso 2** con peticiones HTTP explícitas y `log_rechazos.json`. |
+| **Mezcla de candidatos del Ciclo 1** | No se controlaba la lista base previa | Precarga obligatoria de `LEADS_CICLO_1` dentro del conjunto de exclusión histórica. |
+| **Rate-limit de API de GitHub (HTTP 403)** | Límite de 60 peticiones/hora en modo anónimo | Incorporación de temporizador de pausa (`time.sleep`) y lectura opcional de `GITHUB_TOKEN`. |
 
 ## ⚠️ Limitaciones del Prototipo
 Cobertura de Fuente: El prototipo analiza exclusivamente perfiles y repositorios públicos en GitHub. No accede a redes privadas como LinkedIn o bases de datos de pago.
