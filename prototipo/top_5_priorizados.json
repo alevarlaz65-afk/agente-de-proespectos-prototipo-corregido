@@ -1,128 +1,133 @@
 [
   {
-    "handle": "emergent-wisdom",
+    "handle": "stablyai",
     "canal": "GitHub",
-    "url_fuente": "https://github.com/emergent-wisdom",
-    "fecha_verificacion": "2026-10-30",
+    "url_perfil": "https://github.com/stablyai",
+    "fecha_consulta": "2026-11-03",
+    "url_exacta_evidencia": "https://github.com/stablyai/orca",
+    "cita_textual_fuente": "\"Orca is the place for working with a fleet of agents (e.g. Grok Bot, Claude Code). Run any coding agent with your own subscription. Available on desktop, mobile and remote runtime.\"",
     "estado_verificacion": "VERIFICADO_OK",
     "criterios_cumplidos": [
       "Verificación HTTP 200 OK en perfil",
-      "Posee 21 repositorios públicos (Mínimo 3)",
+      "Posee 26 repositorios públicos (Mínimo 3)",
       "Demuestra stack activo de IA/agentes/integración",
-      "Señal comercial clara para Indie Builder / AI Developer (Lab Seat)"
+      "Señal comercial clara para B2B Ops & Tech Lead"
     ],
-    "tipo_comprador": "Indie Builder / AI Developer (Lab Seat)",
-    "repos_publicos": 21,
+    "tipo_comprador": "B2B Ops & Tech Lead",
+    "repos_publicos": 26,
     "stack_detectado": [
       "JavaScript",
-      "Python",
-      "TypeScript",
-      "TeX"
-    ],
-    "por_que_compraria": "Mantenedor de 'meaning-model'. Requiere staging hosted 24/7.",
-    "objecion_esperada": "Prefiero seguir ejecutando localmente en mi PC o servidor personal [HIPÓTESIS].",
-    "oferta_sugerida": "$6 Day Pass / $15 Trial",
-    "nivel_confianza": "Alto",
-    "mejor_siguiente_accion": "Ofrecer Day Pass ($6) para aislar ejecuciones sin agotar RAM local."
-  },
-  {
-    "handle": "vargHQ",
-    "canal": "GitHub",
-    "url_fuente": "https://github.com/vargHQ",
-    "fecha_verificacion": "2026-10-30",
-    "estado_verificacion": "VERIFICADO_OK",
-    "criterios_cumplidos": [
-      "Verificación HTTP 200 OK en perfil",
-      "Posee 12 repositorios públicos (Mínimo 3)",
-      "Demuestra stack activo de IA/agentes/integración",
-      "Señal comercial clara para Indie Builder / AI Developer (Lab Seat)"
-    ],
-    "tipo_comprador": "Indie Builder / AI Developer (Lab Seat)",
-    "repos_publicos": 12,
-    "stack_detectado": [
-      "TypeScript",
-      "HTML",
-      "MDX"
-    ],
-    "por_que_compraria": "Mantenedor de 'skills'. Requiere staging hosted 24/7.",
-    "objecion_esperada": "Prefiero seguir ejecutando localmente en mi PC o servidor personal [HIPÓTESIS].",
-    "oferta_sugerida": "$6 Day Pass / $15 Trial",
-    "nivel_confianza": "Alto",
-    "mejor_siguiente_accion": "Ofrecer Day Pass ($6) para aislar ejecuciones sin agotar RAM local."
-  },
-  {
-    "handle": "Fmarzochi",
-    "canal": "GitHub",
-    "url_fuente": "https://github.com/Fmarzochi",
-    "fecha_verificacion": "2026-10-30",
-    "estado_verificacion": "VERIFICADO_OK",
-    "criterios_cumplidos": [
-      "Verificación HTTP 200 OK en perfil",
-      "Posee 63 repositorios públicos (Mínimo 3)",
-      "Demuestra stack activo de IA/agentes/integración",
-      "Señal comercial clara para Indie Builder / AI Developer (Lab Seat)"
-    ],
-    "tipo_comprador": "Indie Builder / AI Developer (Lab Seat)",
-    "repos_publicos": 63,
-    "stack_detectado": [
-      "JavaScript",
-      "TypeScript"
-    ],
-    "por_que_compraria": "Mantenedor de 'EGC'. Requiere staging hosted 24/7.",
-    "objecion_esperada": "Prefiero seguir ejecutando localmente en mi PC o servidor personal [HIPÓTESIS].",
-    "oferta_sugerida": "$6 Day Pass / $15 Trial",
-    "nivel_confianza": "Alto",
-    "mejor_siguiente_accion": "Ofrecer Day Pass ($6) para aislar ejecuciones sin agotar RAM local."
-  },
-  {
-    "handle": "ashlrai",
-    "canal": "GitHub",
-    "url_fuente": "https://github.com/ashlrai",
-    "fecha_verificacion": "2026-10-30",
-    "estado_verificacion": "VERIFICADO_OK",
-    "criterios_cumplidos": [
-      "Verificación HTTP 200 OK en perfil",
-      "Posee 29 repositorios públicos (Mínimo 3)",
-      "Demuestra stack activo de IA/agentes/integración",
-      "Señal comercial clara para Indie Builder / AI Developer (Lab Seat)"
-    ],
-    "tipo_comprador": "Indie Builder / AI Developer (Lab Seat)",
-    "repos_publicos": 29,
-    "stack_detectado": [
-      "Rust",
-      "Python",
       "TypeScript",
       "Ruby"
     ],
-    "por_que_compraria": "Mantenedor de 'ashlr-plugin'. Requiere staging hosted 24/7.",
-    "objecion_esperada": "Prefiero seguir ejecutando localmente en mi PC o servidor personal [HIPÓTESIS].",
-    "oferta_sugerida": "$6 Day Pass / $15 Trial",
+    "por_que_compraria": "Mantiene 'orca', enfocado en integraciones y automatización B2B.",
+    "objecion_esperada": "Prefiero ejecutar localmente en mi PC o servidor personal [HIPÓTESIS].",
+    "oferta_sugerida": "$15 Trial de 7 Días / Solución B2B ($200+ USD)",
     "nivel_confianza": "Alto",
-    "mejor_siguiente_accion": "Ofrecer Day Pass ($6) para aislar ejecuciones sin agotar RAM local."
+    "mejor_siguiente_accion": "Presentar propuesta de orquestación cloud para eliminar mantenimiento en VPS."
   },
   {
-    "handle": "spacelabdevteam-hub",
+    "handle": "paperfoot",
     "canal": "GitHub",
-    "url_fuente": "https://github.com/spacelabdevteam-hub",
-    "fecha_verificacion": "2026-10-30",
+    "url_perfil": "https://github.com/paperfoot",
+    "fecha_consulta": "2026-11-03",
+    "url_exacta_evidencia": "https://github.com/paperfoot/clinstagram",
+    "cita_textual_fuente": "\"Instagram CLI for AI agents. Meta Graph API + instagrapi private API. JSON output, policy routing.\"",
     "estado_verificacion": "VERIFICADO_OK",
     "criterios_cumplidos": [
       "Verificación HTTP 200 OK en perfil",
-      "Posee 7 repositorios públicos (Mínimo 3)",
+      "Posee 38 repositorios públicos (Mínimo 3)",
       "Demuestra stack activo de IA/agentes/integración",
-      "Señal comercial clara para Indie Builder / AI Developer (Lab Seat)"
+      "Señal comercial clara para B2B Ops & Tech Lead"
     ],
-    "tipo_comprador": "Indie Builder / AI Developer (Lab Seat)",
-    "repos_publicos": 7,
+    "tipo_comprador": "B2B Ops & Tech Lead",
+    "repos_publicos": 38,
     "stack_detectado": [
-      "JavaScript",
-      "HTML",
-      "Jupyter Notebook"
+      "Rust",
+      "Python",
+      "Ruby"
     ],
-    "por_que_compraria": "Mantenedor de 'space-journey-mcp-engine'. Requiere staging hosted 24/7.",
-    "objecion_esperada": "Prefiero seguir ejecutando localmente en mi PC o servidor personal [HIPÓTESIS].",
-    "oferta_sugerida": "$6 Day Pass / $15 Trial",
+    "por_que_compraria": "Mantiene 'clinstagram', enfocado en integraciones y automatización B2B.",
+    "objecion_esperada": "Prefiero ejecutar localmente en mi PC o servidor personal [HIPÓTESIS].",
+    "oferta_sugerida": "$15 Trial de 7 Días / Solución B2B ($200+ USD)",
     "nivel_confianza": "Alto",
-    "mejor_siguiente_accion": "Ofrecer Day Pass ($6) para aislar ejecuciones sin agotar RAM local."
+    "mejor_siguiente_accion": "Presentar propuesta de orquestación cloud para eliminar mantenimiento en VPS."
+  },
+  {
+    "handle": "seahawk2986-hue",
+    "canal": "GitHub",
+    "url_perfil": "https://github.com/seahawk2986-hue",
+    "fecha_consulta": "2026-11-03",
+    "url_exacta_evidencia": "https://github.com/seahawk2986-hue/apex-ghost-family",
+    "cita_textual_fuente": "\"apex swarm\"",
+    "estado_verificacion": "VERIFICADO_OK",
+    "criterios_cumplidos": [
+      "Verificación HTTP 200 OK en perfil",
+      "Posee 8 repositorios públicos (Mínimo 3)",
+      "Demuestra stack activo de IA/agentes/integración",
+      "Señal comercial clara para B2B Ops & Tech Lead"
+    ],
+    "tipo_comprador": "B2B Ops & Tech Lead",
+    "repos_publicos": 8,
+    "stack_detectado": [
+      "Python"
+    ],
+    "por_que_compraria": "Mantiene 'apex-ghost-family', enfocado en integraciones y automatización B2B.",
+    "objecion_esperada": "Prefiero ejecutar localmente en mi PC o servidor personal [HIPÓTESIS].",
+    "oferta_sugerida": "$15 Trial de 7 Días / Solución B2B ($200+ USD)",
+    "nivel_confianza": "Alto",
+    "mejor_siguiente_accion": "Presentar propuesta de orquestación cloud para eliminar mantenimiento en VPS."
+  },
+  {
+    "handle": "hallboys",
+    "canal": "GitHub",
+    "url_perfil": "https://github.com/hallboys",
+    "fecha_consulta": "2026-11-03",
+    "url_exacta_evidencia": "https://github.com/hallboys/acumatica-claude-kit",
+    "cita_textual_fuente": "\"Claude Code plugin: portable Acumatica ERP integration gotchas for contract-REST + OData GIs (UNIVERSAL vs TENANT tagged)\"",
+    "estado_verificacion": "VERIFICADO_OK",
+    "criterios_cumplidos": [
+      "Verificación HTTP 200 OK en perfil",
+      "Posee 4 repositorios públicos (Mínimo 3)",
+      "Demuestra stack activo de IA/agentes/integración",
+      "Señal comercial clara para B2B Ops & Tech Lead"
+    ],
+    "tipo_comprador": "B2B Ops & Tech Lead",
+    "repos_publicos": 4,
+    "stack_detectado": [
+      "Python",
+      "TypeScript",
+      "Shell"
+    ],
+    "por_que_compraria": "Mantiene 'acumatica-claude-kit', enfocado en integraciones y automatización B2B.",
+    "objecion_esperada": "Prefiero ejecutar localmente en mi PC o servidor personal [HIPÓTESIS].",
+    "oferta_sugerida": "$15 Trial de 7 Días / Solución B2B ($200+ USD)",
+    "nivel_confianza": "Medio",
+    "mejor_siguiente_accion": "Presentar propuesta de orquestación cloud para eliminar mantenimiento en VPS."
+  },
+  {
+    "handle": "getcargohq",
+    "canal": "GitHub",
+    "url_perfil": "https://github.com/getcargohq",
+    "fecha_consulta": "2026-11-03",
+    "url_exacta_evidencia": "https://github.com/getcargohq/cargo-skills",
+    "cita_textual_fuente": "\"GTM engineering skills for AI coding agents — build lead lists, find & verify emails, waterfall enrichment, lead scoring, CRM sync, and buying-signal monitoring (job changes, funding, tech intent) from Claude Code, Codex, or Cursor. Powered by the Cargo CLI: 138 integrations, 50 data providers.\"",
+    "estado_verificacion": "VERIFICADO_OK",
+    "criterios_cumplidos": [
+      "Verificación HTTP 200 OK en perfil",
+      "Posee 5 repositorios públicos (Mínimo 3)",
+      "Demuestra stack activo de IA/agentes/integración",
+      "Señal comercial clara para B2B Ops & Tech Lead"
+    ],
+    "tipo_comprador": "B2B Ops & Tech Lead",
+    "repos_publicos": 5,
+    "stack_detectado": [
+      "TypeScript"
+    ],
+    "por_que_compraria": "Mantiene 'cargo-skills', enfocado en integraciones y automatización B2B.",
+    "objecion_esperada": "Prefiero ejecutar localmente en mi PC o servidor personal [HIPÓTESIS].",
+    "oferta_sugerida": "$15 Trial de 7 Días / Solución B2B ($200+ USD)",
+    "nivel_confianza": "Alto",
+    "mejor_siguiente_accion": "Presentar propuesta de orquestación cloud para eliminar mantenimiento en VPS."
   }
 ]

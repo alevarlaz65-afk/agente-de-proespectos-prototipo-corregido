@@ -1,10 +1,7 @@
 #!/usr/bin/env python3
 """
 Arnés Prototipo de Prospectado para Avril Lab (Versión con Gate de Verificación HTTP)
-Cumple con el pipeline obligatorio de 3 pasos (Gerry, 30 oct 2026):
-  1. Descubrimiento -> raw_candidates.json
-  2. Verificación (HTTP 200 OK + Criterios Mínimos + Evidencia) -> log_rechazos.json
-  3. Persistencia -> prospectos_avril_lab.json y top_5_priorizados.json
+Cumple con el pipeline obligatorio de 3 pasos y requerimientos del Ciclo 3.
 """
 
 import json
@@ -28,19 +25,18 @@ LEADS_CICLO_1 = {
     "andynadal", "diegotepichin", "acbri", "robinsonmirandaco"
 }
 
+# 1. Ampliación de volumen para asegurar >= 30 en bruto
 SEARCH_QUERIES = [
     "topic:openclaw fork:false pushed:>2026-01-01",
     "topic:mcp-server fork:false pushed:>2026-01-01",
     "topic:ai-agents location:mexico fork:false",
     "agent workflow location:mexico fork:false",
-    "claude-code integration fork:false pushed:>2026-01-01"
+    "claude-code integration fork:false pushed:>2026-01-01",
+    "supabase ai automation fork:false",
+    "n8n workflow automation fork:false"
 ]
 
 GITHUB_API_URL = "https://api.github.com"
-
-# -------------------------------------------------------------------------
-# PASO 1: DESCUBRIMIENTO (Búsqueda en Bruto)
-# -------------------------------------------------------------------------
 
 def cargar_historial() -> Set[str]:
     historial = {h.lower() for h in LEADS_CICLO_1}
@@ -51,7 +47,7 @@ def cargar_historial() -> Set[str]:
                 historial.update(h.lower() for h in guardados)
         except Exception as e:
             print(f"[!] Aviso al cargar historial: {e}", file=sys.stderr)
-    return historial
+    return historial 
 
 def api_request(endpoint: str) -> Any:
     url = f"{GITHUB_API_URL}{endpoint}"
@@ -75,14 +71,14 @@ def api_request(endpoint: str) -> Any:
     return None
 
 def discover_candidates(historial: Set[str]) -> List[Dict[str, Any]]:
-    """PASO 1: Extrae candidatos en bruto sin asumir existencia ni calidad."""
     print("\n[PASO 1] Iniciando Descubrimiento de candidatos en bruto...")
     raw_candidates = []
     seen_in_run = set()
 
     for query in SEARCH_QUERIES:
         encoded_query = urllib.parse.quote(query)
-        endpoint = f"/search/repositories?q={encoded_query}&per_page=8&sort=updated"
+        # Paginado incrementado a 15 para garantizar mayor volumen
+        endpoint = f"/search/repositories?q={encoded_query}&per_page=15&sort=updated"
         res = api_request(endpoint)
         repos = res.get("items", []) if res else []
 
@@ -103,19 +99,13 @@ def discover_candidates(historial: Set[str]) -> List[Dict[str, Any]]:
                 "fecha_descubrimiento": datetime.now().strftime("%Y-%m-%d %H:%M:%S")
             })
 
-    # Persistir raw_candidates.json para trazabilidad
     with open(RAW_FILE, "w", encoding="utf-8") as f:
         json.dump(raw_candidates, f, indent=2, ensure_ascii=False)
         
     print(f"[✓] Paso 1 completado: {len(raw_candidates)} candidatos en bruto guardados en '{RAW_FILE}'.")
     return raw_candidates
 
-# -------------------------------------------------------------------------
-# PASO 2: GATE DE VERIFICACIÓN (Existencia HTTP + Criterios Mínimos)
-# -------------------------------------------------------------------------
-
 def verificar_existencia_http(profile_url: str) -> Tuple[bool, str]:
-    """Comprueba mediante petición HEAD/GET real que la URL del perfil existe (HTTP 200)."""
     req = urllib.request.Request(
         profile_url,
         headers={"User-Agent": "AvrilLab-VerificationGate/3.0"}
@@ -135,31 +125,23 @@ def verificar_existencia_http(profile_url: str) -> Tuple[bool, str]:
         return False, f"Error de conexión: {e}"
 
 def verify_candidate(candidate: Dict[str, Any]) -> Tuple[bool, Dict[str, Any], str]:
-    """
-    PASO 2: Evalúa existencia, métricas de actividad y coherencia de perfil.
-    Retorna (es_valido, objeto_prospecto, motivo_descarte).
-    """
     username = candidate["handle"]
     profile_url = candidate["profile_url"]
     fecha_hoy = datetime.now().strftime("%Y-%m-%d")
 
-    # 1. Comprobación de existencia HTTP
     http_ok, http_msg = verificar_existencia_http(profile_url)
     if not http_ok:
         return False, {}, f"Falla de Verificación HTTP: {http_msg}"
 
-    # 2. Obtener datos detallados del perfil vía API
     user_info = api_request(f"/users/{username}")
     if not user_info:
         return False, {}, "Error de API al consultar metadatos del usuario."
 
     public_repos = user_info.get("public_repos", 0)
     
-    # Criterio Mínimo 1: Actividad real (al menos 3 repositorios)
     if public_repos < 3:
         return False, {}, f"Criterio Insuficiente: Solo posee {public_repos} repositorio(s) público(s). Mínimo requerido: 3."
 
-    # Criterio Mínimo 2: Stack técnico complejo / actividad relevante
     repos_info = api_request(f"/users/{username}/repos?per_page=10&sort=updated") or []
     languages = set()
     has_relevant_signals = False
@@ -172,9 +154,8 @@ def verify_candidate(candidate: Dict[str, Any]) -> Tuple[bool, Dict[str, Any], s
             has_relevant_signals = True
 
     if not has_relevant_signals:
-        return False, {}, "Criterio Insuficiente: No se detectaron señales activas de agentes, MCP o automatización en repos recientes."
+        return False, {}, "Criterio Insuficiente: No detectó señales activas de agentes/MCP en repos."
 
-    # Clasificación comercial B2B vs. Seats Lab
     desc_repo = candidate["description"].lower()
     topics = candidate["topics"]
     es_b2b = any(term in desc_repo or term in topics for term in ["erp", "crm", "supabase", "database", "automation", "webhook"])
@@ -204,15 +185,17 @@ def verify_candidate(candidate: Dict[str, Any]) -> Tuple[bool, Dict[str, Any], s
     verified_prospect = {
         "handle": username,
         "canal": "GitHub",
-        "url_fuente": profile_url,
-        "fecha_verificacion": fecha_hoy,
+        "url_perfil": profile_url,
+        "fecha_consulta": fecha_hoy,
+        "url_exacta_evidencia": candidate.get("repo_url", profile_url),
+        "cita_textual_fuente": f'"{candidate.get("description", "Sin descripción textual")}"',
         "estado_verificacion": "VERIFICADO_OK",
         "criterios_cumplidos": criterios_aprobados,
         "tipo_comprador": buyer_type,
         "repos_publicos": public_repos,
         "stack_detectado": list(languages),
         "por_que_compraria": fit_reason,
-        "objecion_esperada": "Prefiero seguir ejecutando localmente en mi PC o servidor personal [HIPÓTESIS].",
+        "objecion_esperada": "Prefiero ejecutar localmente en mi PC o servidor personal [HIPÓTESIS].",
         "oferta_sugerida": suggested_offer,
         "nivel_confianza": confidence,
         "mejor_siguiente_accion": next_action,
@@ -222,7 +205,6 @@ def verify_candidate(candidate: Dict[str, Any]) -> Tuple[bool, Dict[str, Any], s
     return True, verified_prospect, ""
 
 def process_verification_gate(raw_candidates: List[Dict[str, Any]]) -> Tuple[List[Dict[str, Any]], List[Dict[str, Any]]]:
-    """PASO 2: Filtra candidatos en bruto y genera el registro de aprobados y rechazos."""
     print("\n[PASO 2] Ejecutando Gate de Verificación (HTTP + Criterios Mínimos)...")
     verified_list = []
     rejected_list = []
@@ -243,54 +225,37 @@ def process_verification_gate(raw_candidates: List[Dict[str, Any]]) -> Tuple[Lis
                 "motivo_descarte": reason
             })
         
-        time.sleep(0.5) # Respetar límites de red
+        time.sleep(0.5) 
 
-    # Guardar log de rechazos para trazabilidad
     with open(REJECTED_FILE, "w", encoding="utf-8") as f:
         json.dump(rejected_list, f, indent=2, ensure_ascii=False)
 
     print(f"[✓] Paso 2 completado: {len(verified_list)} aprobados, {len(rejected_list)} descartados.")
     return verified_list, rejected_list
 
-# -------------------------------------------------------------------------
-# PASO 3: PERSISTENCIA (Generación de Entregables Aprobados)
-# -------------------------------------------------------------------------
-
 def persist_verified_prospects(verified_list: List[Dict[str, Any]], historial: Set[str]):
-    """PASO 3: Guarda únicamente los prospectos que pasaron el gate de verificación."""
     print("\n[PASO 3] Guardando prospectos verificados en el JSON final...")
 
-    # Ordenar por score de prioridad
     ordenados = sorted(verified_list, key=lambda x: x.get("_score_prioridad", 0), reverse=True)
     
-    # Limpiar campos de ordenamiento interno
     salida_final = []
     for p in ordenados:
         clean_item = {k: v for k, v in p.items() if not k.startswith("_")}
         salida_final.append(clean_item)
-
-        # Actualizar historial
         historial.add(p["handle"].lower())
 
     top_5 = salida_final[:5]
 
-    # Guardar entregable con mínimos 15 prospectos verificados
     with open(OUTPUT_FILE, "w", encoding="utf-8") as f:
         json.dump(salida_final, f, indent=2, ensure_ascii=False)
 
-    # Guardar entregable Top 5 Priorizados
     with open(TOP5_OUTPUT_FILE, "w", encoding="utf-8") as f:
         json.dump(top_5, f, indent=2, ensure_ascii=False)
 
-    # Actualizar historial persistente
     with open(HISTORIAL_FILE, "w", encoding="utf-8") as f:
         json.dump(sorted(list(historial)), f, indent=2, ensure_ascii=False)
 
     print(f"[✓] Paso 3 completado: '{OUTPUT_FILE}' y '{TOP5_OUTPUT_FILE}' generados exitosamente.")
-
-# -------------------------------------------------------------------------
-# EJECUCIÓN PRINCIPAL DEL PIPELINE
-# -------------------------------------------------------------------------
 
 def run_pipeline():
     print("============================================================")
@@ -299,22 +264,18 @@ def run_pipeline():
     
     historial = cargar_historial()
     
-    # 1. Descubrimiento
     raw = discover_candidates(historial)
     if not raw:
         print("[!] No se encontraron candidatos nuevos en bruto. Finalizando.")
         return
 
-    # 2. Gate de Verificación
     verified, rejected = process_verification_gate(raw)
 
-    # 3. Persistencia
     if verified:
         persist_verified_prospects(verified, historial)
     else:
         print("[!] Ningún candidato superó el gate de verificación.")
 
-    # RESUMEN PARA LA DEMO
     print("\n" + "="*60)
     print("  RESUMEN DE EJECUCIÓN DEL ARNES (Métricas de la Demo)")
     print("="*60)

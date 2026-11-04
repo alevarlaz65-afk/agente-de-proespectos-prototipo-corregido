@@ -1,110 +1,656 @@
 [
   {
-    "handle": "emergent-wisdom",
+    "handle": "stablyai",
     "canal": "GitHub",
-    "url_fuente": "https://github.com/emergent-wisdom",
-    "fecha_verificacion": "2026-10-30",
+    "url_perfil": "https://github.com/stablyai",
+    "fecha_consulta": "2026-11-03",
+    "url_exacta_evidencia": "https://github.com/stablyai/orca",
+    "cita_textual_fuente": "\"Orca is the place for working with a fleet of agents (e.g. Grok Bot, Claude Code). Run any coding agent with your own subscription. Available on desktop, mobile and remote runtime.\"",
     "estado_verificacion": "VERIFICADO_OK",
     "criterios_cumplidos": [
       "Verificación HTTP 200 OK en perfil",
-      "Posee 21 repositorios públicos (Mínimo 3)",
+      "Posee 26 repositorios públicos (Mínimo 3)",
       "Demuestra stack activo de IA/agentes/integración",
-      "Señal comercial clara para Indie Builder / AI Developer (Lab Seat)"
+      "Señal comercial clara para B2B Ops & Tech Lead"
     ],
-    "tipo_comprador": "Indie Builder / AI Developer (Lab Seat)",
-    "repos_publicos": 21,
+    "tipo_comprador": "B2B Ops & Tech Lead",
+    "repos_publicos": 26,
     "stack_detectado": [
       "JavaScript",
-      "Python",
-      "TypeScript",
-      "TeX"
-    ],
-    "por_que_compraria": "Mantenedor de 'meaning-model'. Requiere staging hosted 24/7.",
-    "objecion_esperada": "Prefiero seguir ejecutando localmente en mi PC o servidor personal [HIPÓTESIS].",
-    "oferta_sugerida": "$6 Day Pass / $15 Trial",
-    "nivel_confianza": "Alto",
-    "mejor_siguiente_accion": "Ofrecer Day Pass ($6) para aislar ejecuciones sin agotar RAM local."
-  },
-  {
-    "handle": "vargHQ",
-    "canal": "GitHub",
-    "url_fuente": "https://github.com/vargHQ",
-    "fecha_verificacion": "2026-10-30",
-    "estado_verificacion": "VERIFICADO_OK",
-    "criterios_cumplidos": [
-      "Verificación HTTP 200 OK en perfil",
-      "Posee 12 repositorios públicos (Mínimo 3)",
-      "Demuestra stack activo de IA/agentes/integración",
-      "Señal comercial clara para Indie Builder / AI Developer (Lab Seat)"
-    ],
-    "tipo_comprador": "Indie Builder / AI Developer (Lab Seat)",
-    "repos_publicos": 12,
-    "stack_detectado": [
-      "TypeScript",
-      "HTML",
-      "MDX"
-    ],
-    "por_que_compraria": "Mantenedor de 'skills'. Requiere staging hosted 24/7.",
-    "objecion_esperada": "Prefiero seguir ejecutando localmente en mi PC o servidor personal [HIPÓTESIS].",
-    "oferta_sugerida": "$6 Day Pass / $15 Trial",
-    "nivel_confianza": "Alto",
-    "mejor_siguiente_accion": "Ofrecer Day Pass ($6) para aislar ejecuciones sin agotar RAM local."
-  },
-  {
-    "handle": "Fmarzochi",
-    "canal": "GitHub",
-    "url_fuente": "https://github.com/Fmarzochi",
-    "fecha_verificacion": "2026-10-30",
-    "estado_verificacion": "VERIFICADO_OK",
-    "criterios_cumplidos": [
-      "Verificación HTTP 200 OK en perfil",
-      "Posee 63 repositorios públicos (Mínimo 3)",
-      "Demuestra stack activo de IA/agentes/integración",
-      "Señal comercial clara para Indie Builder / AI Developer (Lab Seat)"
-    ],
-    "tipo_comprador": "Indie Builder / AI Developer (Lab Seat)",
-    "repos_publicos": 63,
-    "stack_detectado": [
-      "JavaScript",
-      "TypeScript"
-    ],
-    "por_que_compraria": "Mantenedor de 'EGC'. Requiere staging hosted 24/7.",
-    "objecion_esperada": "Prefiero seguir ejecutando localmente en mi PC o servidor personal [HIPÓTESIS].",
-    "oferta_sugerida": "$6 Day Pass / $15 Trial",
-    "nivel_confianza": "Alto",
-    "mejor_siguiente_accion": "Ofrecer Day Pass ($6) para aislar ejecuciones sin agotar RAM local."
-  },
-  {
-    "handle": "ashlrai",
-    "canal": "GitHub",
-    "url_fuente": "https://github.com/ashlrai",
-    "fecha_verificacion": "2026-10-30",
-    "estado_verificacion": "VERIFICADO_OK",
-    "criterios_cumplidos": [
-      "Verificación HTTP 200 OK en perfil",
-      "Posee 29 repositorios públicos (Mínimo 3)",
-      "Demuestra stack activo de IA/agentes/integración",
-      "Señal comercial clara para Indie Builder / AI Developer (Lab Seat)"
-    ],
-    "tipo_comprador": "Indie Builder / AI Developer (Lab Seat)",
-    "repos_publicos": 29,
-    "stack_detectado": [
-      "Rust",
-      "Python",
       "TypeScript",
       "Ruby"
     ],
-    "por_que_compraria": "Mantenedor de 'ashlr-plugin'. Requiere staging hosted 24/7.",
-    "objecion_esperada": "Prefiero seguir ejecutando localmente en mi PC o servidor personal [HIPÓTESIS].",
+    "por_que_compraria": "Mantiene 'orca', enfocado en integraciones y automatización B2B.",
+    "objecion_esperada": "Prefiero ejecutar localmente en mi PC o servidor personal [HIPÓTESIS].",
+    "oferta_sugerida": "$15 Trial de 7 Días / Solución B2B ($200+ USD)",
+    "nivel_confianza": "Alto",
+    "mejor_siguiente_accion": "Presentar propuesta de orquestación cloud para eliminar mantenimiento en VPS."
+  },
+  {
+    "handle": "paperfoot",
+    "canal": "GitHub",
+    "url_perfil": "https://github.com/paperfoot",
+    "fecha_consulta": "2026-11-03",
+    "url_exacta_evidencia": "https://github.com/paperfoot/clinstagram",
+    "cita_textual_fuente": "\"Instagram CLI for AI agents. Meta Graph API + instagrapi private API. JSON output, policy routing.\"",
+    "estado_verificacion": "VERIFICADO_OK",
+    "criterios_cumplidos": [
+      "Verificación HTTP 200 OK en perfil",
+      "Posee 38 repositorios públicos (Mínimo 3)",
+      "Demuestra stack activo de IA/agentes/integración",
+      "Señal comercial clara para B2B Ops & Tech Lead"
+    ],
+    "tipo_comprador": "B2B Ops & Tech Lead",
+    "repos_publicos": 38,
+    "stack_detectado": [
+      "Rust",
+      "Python",
+      "Ruby"
+    ],
+    "por_que_compraria": "Mantiene 'clinstagram', enfocado en integraciones y automatización B2B.",
+    "objecion_esperada": "Prefiero ejecutar localmente en mi PC o servidor personal [HIPÓTESIS].",
+    "oferta_sugerida": "$15 Trial de 7 Días / Solución B2B ($200+ USD)",
+    "nivel_confianza": "Alto",
+    "mejor_siguiente_accion": "Presentar propuesta de orquestación cloud para eliminar mantenimiento en VPS."
+  },
+  {
+    "handle": "seahawk2986-hue",
+    "canal": "GitHub",
+    "url_perfil": "https://github.com/seahawk2986-hue",
+    "fecha_consulta": "2026-11-03",
+    "url_exacta_evidencia": "https://github.com/seahawk2986-hue/apex-ghost-family",
+    "cita_textual_fuente": "\"apex swarm\"",
+    "estado_verificacion": "VERIFICADO_OK",
+    "criterios_cumplidos": [
+      "Verificación HTTP 200 OK en perfil",
+      "Posee 8 repositorios públicos (Mínimo 3)",
+      "Demuestra stack activo de IA/agentes/integración",
+      "Señal comercial clara para B2B Ops & Tech Lead"
+    ],
+    "tipo_comprador": "B2B Ops & Tech Lead",
+    "repos_publicos": 8,
+    "stack_detectado": [
+      "Python"
+    ],
+    "por_que_compraria": "Mantiene 'apex-ghost-family', enfocado en integraciones y automatización B2B.",
+    "objecion_esperada": "Prefiero ejecutar localmente en mi PC o servidor personal [HIPÓTESIS].",
+    "oferta_sugerida": "$15 Trial de 7 Días / Solución B2B ($200+ USD)",
+    "nivel_confianza": "Alto",
+    "mejor_siguiente_accion": "Presentar propuesta de orquestación cloud para eliminar mantenimiento en VPS."
+  },
+  {
+    "handle": "hallboys",
+    "canal": "GitHub",
+    "url_perfil": "https://github.com/hallboys",
+    "fecha_consulta": "2026-11-03",
+    "url_exacta_evidencia": "https://github.com/hallboys/acumatica-claude-kit",
+    "cita_textual_fuente": "\"Claude Code plugin: portable Acumatica ERP integration gotchas for contract-REST + OData GIs (UNIVERSAL vs TENANT tagged)\"",
+    "estado_verificacion": "VERIFICADO_OK",
+    "criterios_cumplidos": [
+      "Verificación HTTP 200 OK en perfil",
+      "Posee 4 repositorios públicos (Mínimo 3)",
+      "Demuestra stack activo de IA/agentes/integración",
+      "Señal comercial clara para B2B Ops & Tech Lead"
+    ],
+    "tipo_comprador": "B2B Ops & Tech Lead",
+    "repos_publicos": 4,
+    "stack_detectado": [
+      "Python",
+      "TypeScript",
+      "Shell"
+    ],
+    "por_que_compraria": "Mantiene 'acumatica-claude-kit', enfocado en integraciones y automatización B2B.",
+    "objecion_esperada": "Prefiero ejecutar localmente en mi PC o servidor personal [HIPÓTESIS].",
+    "oferta_sugerida": "$15 Trial de 7 Días / Solución B2B ($200+ USD)",
+    "nivel_confianza": "Medio",
+    "mejor_siguiente_accion": "Presentar propuesta de orquestación cloud para eliminar mantenimiento en VPS."
+  },
+  {
+    "handle": "getcargohq",
+    "canal": "GitHub",
+    "url_perfil": "https://github.com/getcargohq",
+    "fecha_consulta": "2026-11-03",
+    "url_exacta_evidencia": "https://github.com/getcargohq/cargo-skills",
+    "cita_textual_fuente": "\"GTM engineering skills for AI coding agents — build lead lists, find & verify emails, waterfall enrichment, lead scoring, CRM sync, and buying-signal monitoring (job changes, funding, tech intent) from Claude Code, Codex, or Cursor. Powered by the Cargo CLI: 138 integrations, 50 data providers.\"",
+    "estado_verificacion": "VERIFICADO_OK",
+    "criterios_cumplidos": [
+      "Verificación HTTP 200 OK en perfil",
+      "Posee 5 repositorios públicos (Mínimo 3)",
+      "Demuestra stack activo de IA/agentes/integración",
+      "Señal comercial clara para B2B Ops & Tech Lead"
+    ],
+    "tipo_comprador": "B2B Ops & Tech Lead",
+    "repos_publicos": 5,
+    "stack_detectado": [
+      "TypeScript"
+    ],
+    "por_que_compraria": "Mantiene 'cargo-skills', enfocado en integraciones y automatización B2B.",
+    "objecion_esperada": "Prefiero ejecutar localmente en mi PC o servidor personal [HIPÓTESIS].",
+    "oferta_sugerida": "$15 Trial de 7 Días / Solución B2B ($200+ USD)",
+    "nivel_confianza": "Alto",
+    "mejor_siguiente_accion": "Presentar propuesta de orquestación cloud para eliminar mantenimiento en VPS."
+  },
+  {
+    "handle": "anwar25hdj",
+    "canal": "GitHub",
+    "url_perfil": "https://github.com/anwar25hdj",
+    "fecha_consulta": "2026-11-03",
+    "url_exacta_evidencia": "https://github.com/anwar25hdj/Autorex-ai-customer-support",
+    "cita_textual_fuente": "\"AI-powered multi-agent customer support automation system built with n8n, OpenAI, Supabase, PostgreSQL, and Telegram.\"",
+    "estado_verificacion": "VERIFICADO_OK",
+    "criterios_cumplidos": [
+      "Verificación HTTP 200 OK en perfil",
+      "Posee 3 repositorios públicos (Mínimo 3)",
+      "Demuestra stack activo de IA/agentes/integración",
+      "Señal comercial clara para B2B Ops & Tech Lead"
+    ],
+    "tipo_comprador": "B2B Ops & Tech Lead",
+    "repos_publicos": 3,
+    "stack_detectado": [],
+    "por_que_compraria": "Mantiene 'Autorex-ai-customer-support', enfocado en integraciones y automatización B2B.",
+    "objecion_esperada": "Prefiero ejecutar localmente en mi PC o servidor personal [HIPÓTESIS].",
+    "oferta_sugerida": "$15 Trial de 7 Días / Solución B2B ($200+ USD)",
+    "nivel_confianza": "Medio",
+    "mejor_siguiente_accion": "Presentar propuesta de orquestación cloud para eliminar mantenimiento en VPS."
+  },
+  {
+    "handle": "sonararadhya",
+    "canal": "GitHub",
+    "url_perfil": "https://github.com/sonararadhya",
+    "fecha_consulta": "2026-11-03",
+    "url_exacta_evidencia": "https://github.com/sonararadhya/AutoREADME",
+    "cita_textual_fuente": "\"Autonomous AI documentation engine that scans codebases, discovers undocumented features, and auto-updates READMEs with multi-provider LLM failover (Groq, GitHub Models, OpenRouter, Gemini) & real-time telemetry.\"",
+    "estado_verificacion": "VERIFICADO_OK",
+    "criterios_cumplidos": [
+      "Verificación HTTP 200 OK en perfil",
+      "Posee 9 repositorios públicos (Mínimo 3)",
+      "Demuestra stack activo de IA/agentes/integración",
+      "Señal comercial clara para B2B Ops & Tech Lead"
+    ],
+    "tipo_comprador": "B2B Ops & Tech Lead",
+    "repos_publicos": 9,
+    "stack_detectado": [
+      "JavaScript",
+      "Shell",
+      "PHP",
+      "HTML"
+    ],
+    "por_que_compraria": "Mantiene 'AutoREADME', enfocado en integraciones y automatización B2B.",
+    "objecion_esperada": "Prefiero ejecutar localmente en mi PC o servidor personal [HIPÓTESIS].",
+    "oferta_sugerida": "$15 Trial de 7 Días / Solución B2B ($200+ USD)",
+    "nivel_confianza": "Alto",
+    "mejor_siguiente_accion": "Presentar propuesta de orquestación cloud para eliminar mantenimiento en VPS."
+  },
+  {
+    "handle": "ahmedfawzyjr",
+    "canal": "GitHub",
+    "url_perfil": "https://github.com/ahmedfawzyjr",
+    "fecha_consulta": "2026-11-03",
+    "url_exacta_evidencia": "https://github.com/ahmedfawzyjr/n8n-templates",
+    "cita_textual_fuente": "\"Curated collection of 350+ production-ready n8n automation workflow templates for AI agents, RAG pipelines, LLM orchestration, chatbots, and enterprise DevOps workflows.\"",
+    "estado_verificacion": "VERIFICADO_OK",
+    "criterios_cumplidos": [
+      "Verificación HTTP 200 OK en perfil",
+      "Posee 23 repositorios públicos (Mínimo 3)",
+      "Demuestra stack activo de IA/agentes/integración",
+      "Señal comercial clara para B2B Ops & Tech Lead"
+    ],
+    "tipo_comprador": "B2B Ops & Tech Lead",
+    "repos_publicos": 23,
+    "stack_detectado": [
+      "Python",
+      "Dart"
+    ],
+    "por_que_compraria": "Mantiene 'n8n-templates', enfocado en integraciones y automatización B2B.",
+    "objecion_esperada": "Prefiero ejecutar localmente en mi PC o servidor personal [HIPÓTESIS].",
+    "oferta_sugerida": "$15 Trial de 7 Días / Solución B2B ($200+ USD)",
+    "nivel_confianza": "Alto",
+    "mejor_siguiente_accion": "Presentar propuesta de orquestación cloud para eliminar mantenimiento en VPS."
+  },
+  {
+    "handle": "patrick-creates",
+    "canal": "GitHub",
+    "url_perfil": "https://github.com/patrick-creates",
+    "fecha_consulta": "2026-11-03",
+    "url_exacta_evidencia": "https://github.com/patrick-creates/telosignal-workflow-vault",
+    "cita_textual_fuente": "\"Documented n8n workflow templates: Guardrails benchmark, Google Sheets batch enrichment and sales invoice processing. Each with setup steps, screenshot and Creator Hub link.\"",
+    "estado_verificacion": "VERIFICADO_OK",
+    "criterios_cumplidos": [
+      "Verificación HTTP 200 OK en perfil",
+      "Posee 5 repositorios públicos (Mínimo 3)",
+      "Demuestra stack activo de IA/agentes/integración",
+      "Señal comercial clara para B2B Ops & Tech Lead"
+    ],
+    "tipo_comprador": "B2B Ops & Tech Lead",
+    "repos_publicos": 5,
+    "stack_detectado": [
+      "JavaScript",
+      "Shell",
+      "HTML"
+    ],
+    "por_que_compraria": "Mantiene 'telosignal-workflow-vault', enfocado en integraciones y automatización B2B.",
+    "objecion_esperada": "Prefiero ejecutar localmente en mi PC o servidor personal [HIPÓTESIS].",
+    "oferta_sugerida": "$15 Trial de 7 Días / Solución B2B ($200+ USD)",
+    "nivel_confianza": "Alto",
+    "mejor_siguiente_accion": "Presentar propuesta de orquestación cloud para eliminar mantenimiento en VPS."
+  },
+  {
+    "handle": "KubaMichalowski-homelab",
+    "canal": "GitHub",
+    "url_perfil": "https://github.com/KubaMichalowski-homelab",
+    "fecha_consulta": "2026-11-03",
+    "url_exacta_evidencia": "https://github.com/KubaMichalowski-homelab/n8n-stack",
+    "cita_textual_fuente": "\"n8n - workflow automation platform with native AI capabilities.\"",
+    "estado_verificacion": "VERIFICADO_OK",
+    "criterios_cumplidos": [
+      "Verificación HTTP 200 OK en perfil",
+      "Posee 7 repositorios públicos (Mínimo 3)",
+      "Demuestra stack activo de IA/agentes/integración",
+      "Señal comercial clara para B2B Ops & Tech Lead"
+    ],
+    "tipo_comprador": "B2B Ops & Tech Lead",
+    "repos_publicos": 7,
+    "stack_detectado": [],
+    "por_que_compraria": "Mantiene 'n8n-stack', enfocado en integraciones y automatización B2B.",
+    "objecion_esperada": "Prefiero ejecutar localmente en mi PC o servidor personal [HIPÓTESIS].",
+    "oferta_sugerida": "$15 Trial de 7 Días / Solución B2B ($200+ USD)",
+    "nivel_confianza": "Alto",
+    "mejor_siguiente_accion": "Presentar propuesta de orquestación cloud para eliminar mantenimiento en VPS."
+  },
+  {
+    "handle": "rocaster",
+    "canal": "GitHub",
+    "url_perfil": "https://github.com/rocaster",
+    "fecha_consulta": "2026-11-03",
+    "url_exacta_evidencia": "https://github.com/rocaster/vm-autoescola-automations",
+    "cita_textual_fuente": "\"Complete automation stack for driving schools, featuring n8n workflows, Odoo 17 CRM integration, Evolution API WhatsApp notifications, and automated daily Docker infrastructure backups to Google Drive.\"",
+    "estado_verificacion": "VERIFICADO_OK",
+    "criterios_cumplidos": [
+      "Verificación HTTP 200 OK en perfil",
+      "Posee 3 repositorios públicos (Mínimo 3)",
+      "Demuestra stack activo de IA/agentes/integración",
+      "Señal comercial clara para B2B Ops & Tech Lead"
+    ],
+    "tipo_comprador": "B2B Ops & Tech Lead",
+    "repos_publicos": 3,
+    "stack_detectado": [
+      "Shell"
+    ],
+    "por_que_compraria": "Mantiene 'vm-autoescola-automations', enfocado en integraciones y automatización B2B.",
+    "objecion_esperada": "Prefiero ejecutar localmente en mi PC o servidor personal [HIPÓTESIS].",
+    "oferta_sugerida": "$15 Trial de 7 Días / Solución B2B ($200+ USD)",
+    "nivel_confianza": "Medio",
+    "mejor_siguiente_accion": "Presentar propuesta de orquestación cloud para eliminar mantenimiento en VPS."
+  },
+  {
+    "handle": "muhannadhg",
+    "canal": "GitHub",
+    "url_perfil": "https://github.com/muhannadhg",
+    "fecha_consulta": "2026-11-03",
+    "url_exacta_evidencia": "https://github.com/muhannadhg/n8n-nodes-zatca-tools",
+    "cita_textual_fuente": "\"n8n community node for Saudi ZATCA Phase 2 e-invoicing — issue signed, reported tax invoices and credit/debit notes from any workflow.\"",
+    "estado_verificacion": "VERIFICADO_OK",
+    "criterios_cumplidos": [
+      "Verificación HTTP 200 OK en perfil",
+      "Posee 10 repositorios públicos (Mínimo 3)",
+      "Demuestra stack activo de IA/agentes/integración",
+      "Señal comercial clara para B2B Ops & Tech Lead"
+    ],
+    "tipo_comprador": "B2B Ops & Tech Lead",
+    "repos_publicos": 10,
+    "stack_detectado": [
+      "Python",
+      "PHP",
+      "TypeScript",
+      "JavaScript",
+      "HTML"
+    ],
+    "por_que_compraria": "Mantiene 'n8n-nodes-zatca-tools', enfocado en integraciones y automatización B2B.",
+    "objecion_esperada": "Prefiero ejecutar localmente en mi PC o servidor personal [HIPÓTESIS].",
+    "oferta_sugerida": "$15 Trial de 7 Días / Solución B2B ($200+ USD)",
+    "nivel_confianza": "Alto",
+    "mejor_siguiente_accion": "Presentar propuesta de orquestación cloud para eliminar mantenimiento en VPS."
+  },
+  {
+    "handle": "abbyuraffi-netizen",
+    "canal": "GitHub",
+    "url_perfil": "https://github.com/abbyuraffi-netizen",
+    "fecha_consulta": "2026-11-03",
+    "url_exacta_evidencia": "https://github.com/abbyuraffi-netizen/maxvision-claude-forge",
+    "cita_textual_fuente": "\"n8n Claude Code Marketplace 2026 ⚡ Production-Grade Skills for GTM & Workflow Automation\"",
+    "estado_verificacion": "VERIFICADO_OK",
+    "criterios_cumplidos": [
+      "Verificación HTTP 200 OK en perfil",
+      "Posee 3 repositorios públicos (Mínimo 3)",
+      "Demuestra stack activo de IA/agentes/integración",
+      "Señal comercial clara para B2B Ops & Tech Lead"
+    ],
+    "tipo_comprador": "B2B Ops & Tech Lead",
+    "repos_publicos": 3,
+    "stack_detectado": [
+      "HTML"
+    ],
+    "por_que_compraria": "Mantiene 'maxvision-claude-forge', enfocado en integraciones y automatización B2B.",
+    "objecion_esperada": "Prefiero ejecutar localmente en mi PC o servidor personal [HIPÓTESIS].",
+    "oferta_sugerida": "$15 Trial de 7 Días / Solución B2B ($200+ USD)",
+    "nivel_confianza": "Medio",
+    "mejor_siguiente_accion": "Presentar propuesta de orquestación cloud para eliminar mantenimiento en VPS."
+  },
+  {
+    "handle": "joscasjac",
+    "canal": "GitHub",
+    "url_perfil": "https://github.com/joscasjac",
+    "fecha_consulta": "2026-11-03",
+    "url_exacta_evidencia": "https://github.com/joscasjac/quest_automations",
+    "cita_textual_fuente": "\"n8n-style visual automations for ERPNext. API-first workflows agents can build and humans can review.\"",
+    "estado_verificacion": "VERIFICADO_OK",
+    "criterios_cumplidos": [
+      "Verificación HTTP 200 OK en perfil",
+      "Posee 13 repositorios públicos (Mínimo 3)",
+      "Demuestra stack activo de IA/agentes/integración",
+      "Señal comercial clara para B2B Ops & Tech Lead"
+    ],
+    "tipo_comprador": "B2B Ops & Tech Lead",
+    "repos_publicos": 13,
+    "stack_detectado": [
+      "Python",
+      "TypeScript",
+      "Ruby",
+      "Svelte",
+      "JavaScript",
+      "HTML"
+    ],
+    "por_que_compraria": "Mantiene 'quest_automations', enfocado en integraciones y automatización B2B.",
+    "objecion_esperada": "Prefiero ejecutar localmente en mi PC o servidor personal [HIPÓTESIS].",
+    "oferta_sugerida": "$15 Trial de 7 Días / Solución B2B ($200+ USD)",
+    "nivel_confianza": "Alto",
+    "mejor_siguiente_accion": "Presentar propuesta de orquestación cloud para eliminar mantenimiento en VPS."
+  },
+  {
+    "handle": "29hashir04",
+    "canal": "GitHub",
+    "url_perfil": "https://github.com/29hashir04",
+    "fecha_consulta": "2026-11-03",
+    "url_exacta_evidencia": "https://github.com/29hashir04/n8n-workflows",
+    "cita_textual_fuente": "\"AI-powered n8n automation workflows using Groq — lead follow-up, support triage, appointment booking, content repurposing, and review responses\"",
+    "estado_verificacion": "VERIFICADO_OK",
+    "criterios_cumplidos": [
+      "Verificación HTTP 200 OK en perfil",
+      "Posee 8 repositorios públicos (Mínimo 3)",
+      "Demuestra stack activo de IA/agentes/integración",
+      "Señal comercial clara para B2B Ops & Tech Lead"
+    ],
+    "tipo_comprador": "B2B Ops & Tech Lead",
+    "repos_publicos": 8,
+    "stack_detectado": [
+      "Python",
+      "TypeScript",
+      "Jupyter Notebook",
+      "Shell"
+    ],
+    "por_que_compraria": "Mantiene 'n8n-workflows', enfocado en integraciones y automatización B2B.",
+    "objecion_esperada": "Prefiero ejecutar localmente en mi PC o servidor personal [HIPÓTESIS].",
+    "oferta_sugerida": "$15 Trial de 7 Días / Solución B2B ($200+ USD)",
+    "nivel_confianza": "Alto",
+    "mejor_siguiente_accion": "Presentar propuesta de orquestación cloud para eliminar mantenimiento en VPS."
+  },
+  {
+    "handle": "samueldeji",
+    "canal": "GitHub",
+    "url_perfil": "https://github.com/samueldeji",
+    "fecha_consulta": "2026-11-03",
+    "url_exacta_evidencia": "https://github.com/samueldeji/-customer-feedback-analyzer",
+    "cita_textual_fuente": "\"An intelligent customer feedback intake, classification, and reporting system built with n8n workflow automation and Gemini LLM.\"",
+    "estado_verificacion": "VERIFICADO_OK",
+    "criterios_cumplidos": [
+      "Verificación HTTP 200 OK en perfil",
+      "Posee 4 repositorios públicos (Mínimo 3)",
+      "Demuestra stack activo de IA/agentes/integración",
+      "Señal comercial clara para B2B Ops & Tech Lead"
+    ],
+    "tipo_comprador": "B2B Ops & Tech Lead",
+    "repos_publicos": 4,
+    "stack_detectado": [
+      "JavaScript"
+    ],
+    "por_que_compraria": "Mantiene '-customer-feedback-analyzer', enfocado en integraciones y automatización B2B.",
+    "objecion_esperada": "Prefiero ejecutar localmente en mi PC o servidor personal [HIPÓTESIS].",
+    "oferta_sugerida": "$15 Trial de 7 Días / Solución B2B ($200+ USD)",
+    "nivel_confianza": "Medio",
+    "mejor_siguiente_accion": "Presentar propuesta de orquestación cloud para eliminar mantenimiento en VPS."
+  },
+  {
+    "handle": "dr34m-cn",
+    "canal": "GitHub",
+    "url_perfil": "https://github.com/dr34m-cn",
+    "fecha_consulta": "2026-11-03",
+    "url_exacta_evidencia": "https://github.com/dr34m-cn/openclaw-docker",
+    "cita_textual_fuente": "\"Automatically sync from ghcr.io/openclaw/openclaw to Docker Hub every 10 minutes. 官方实时同步镜像\"",
+    "estado_verificacion": "VERIFICADO_OK",
+    "criterios_cumplidos": [
+      "Verificación HTTP 200 OK en perfil",
+      "Posee 43 repositorios públicos (Mínimo 3)",
+      "Demuestra stack activo de IA/agentes/integración",
+      "Señal comercial clara para Indie Builder / AI Developer (Lab Seat)"
+    ],
+    "tipo_comprador": "Indie Builder / AI Developer (Lab Seat)",
+    "repos_publicos": 43,
+    "stack_detectado": [
+      "Python",
+      "Dockerfile",
+      "JavaScript",
+      "Vue",
+      "HTML"
+    ],
+    "por_que_compraria": "Mantenedor de 'openclaw-docker'. Requiere staging hosted 24/7.",
+    "objecion_esperada": "Prefiero ejecutar localmente en mi PC o servidor personal [HIPÓTESIS].",
     "oferta_sugerida": "$6 Day Pass / $15 Trial",
     "nivel_confianza": "Alto",
     "mejor_siguiente_accion": "Ofrecer Day Pass ($6) para aislar ejecuciones sin agotar RAM local."
   },
   {
-    "handle": "spacelabdevteam-hub",
+    "handle": "openclaw",
     "canal": "GitHub",
-    "url_fuente": "https://github.com/spacelabdevteam-hub",
-    "fecha_verificacion": "2026-10-30",
+    "url_perfil": "https://github.com/openclaw",
+    "fecha_consulta": "2026-11-03",
+    "url_exacta_evidencia": "https://github.com/openclaw/openclaw",
+    "cita_textual_fuente": "\"The AI that really does things. Any OS. Any Platform. The lobster way. 🦞 \"",
+    "estado_verificacion": "VERIFICADO_OK",
+    "criterios_cumplidos": [
+      "Verificación HTTP 200 OK en perfil",
+      "Posee 98 repositorios públicos (Mínimo 3)",
+      "Demuestra stack activo de IA/agentes/integración",
+      "Señal comercial clara para Indie Builder / AI Developer (Lab Seat)"
+    ],
+    "tipo_comprador": "Indie Builder / AI Developer (Lab Seat)",
+    "repos_publicos": 98,
+    "stack_detectado": [
+      "Rust",
+      "JavaScript",
+      "TypeScript",
+      "C#"
+    ],
+    "por_que_compraria": "Mantenedor de 'openclaw'. Requiere staging hosted 24/7.",
+    "objecion_esperada": "Prefiero ejecutar localmente en mi PC o servidor personal [HIPÓTESIS].",
+    "oferta_sugerida": "$6 Day Pass / $15 Trial",
+    "nivel_confianza": "Alto",
+    "mejor_siguiente_accion": "Ofrecer Day Pass ($6) para aislar ejecuciones sin agotar RAM local."
+  },
+  {
+    "handle": "paperclipai",
+    "canal": "GitHub",
+    "url_perfil": "https://github.com/paperclipai",
+    "fecha_consulta": "2026-11-03",
+    "url_exacta_evidencia": "https://github.com/paperclipai/paperclip",
+    "cita_textual_fuente": "\"The open-source app everyone uses to manage agents at work\"",
+    "estado_verificacion": "VERIFICADO_OK",
+    "criterios_cumplidos": [
+      "Verificación HTTP 200 OK en perfil",
+      "Posee 11 repositorios públicos (Mínimo 3)",
+      "Demuestra stack activo de IA/agentes/integración",
+      "Señal comercial clara para Indie Builder / AI Developer (Lab Seat)"
+    ],
+    "tipo_comprador": "Indie Builder / AI Developer (Lab Seat)",
+    "repos_publicos": 11,
+    "stack_detectado": [
+      "JavaScript",
+      "TypeScript",
+      "Python",
+      "CSS"
+    ],
+    "por_que_compraria": "Mantenedor de 'paperclip'. Requiere staging hosted 24/7.",
+    "objecion_esperada": "Prefiero ejecutar localmente en mi PC o servidor personal [HIPÓTESIS].",
+    "oferta_sugerida": "$6 Day Pass / $15 Trial",
+    "nivel_confianza": "Alto",
+    "mejor_siguiente_accion": "Ofrecer Day Pass ($6) para aislar ejecuciones sin agotar RAM local."
+  },
+  {
+    "handle": "KimYx0207",
+    "canal": "GitHub",
+    "url_perfil": "https://github.com/KimYx0207",
+    "fecha_consulta": "2026-11-03",
+    "url_exacta_evidencia": "https://github.com/KimYx0207/Meta_Kim",
+    "cita_textual_fuente": "\"Governed execution layer for AI coding assistants: clarify intent, route capabilities, review evidence, verify results, and write back lessons across Claude Code, Codex, OpenClaw, and Cursor.\"",
+    "estado_verificacion": "VERIFICADO_OK",
+    "criterios_cumplidos": [
+      "Verificación HTTP 200 OK en perfil",
+      "Posee 24 repositorios públicos (Mínimo 3)",
+      "Demuestra stack activo de IA/agentes/integración",
+      "Señal comercial clara para Indie Builder / AI Developer (Lab Seat)"
+    ],
+    "tipo_comprador": "Indie Builder / AI Developer (Lab Seat)",
+    "repos_publicos": 24,
+    "stack_detectado": [
+      "Python",
+      "JavaScript"
+    ],
+    "por_que_compraria": "Mantenedor de 'Meta_Kim'. Requiere staging hosted 24/7.",
+    "objecion_esperada": "Prefiero ejecutar localmente en mi PC o servidor personal [HIPÓTESIS].",
+    "oferta_sugerida": "$6 Day Pass / $15 Trial",
+    "nivel_confianza": "Alto",
+    "mejor_siguiente_accion": "Ofrecer Day Pass ($6) para aislar ejecuciones sin agotar RAM local."
+  },
+  {
+    "handle": "agentsfleet",
+    "canal": "GitHub",
+    "url_perfil": "https://github.com/agentsfleet",
+    "fecha_consulta": "2026-11-03",
+    "url_exacta_evidencia": "https://github.com/agentsfleet/agentsfleet",
+    "cita_textual_fuente": "\"Open-source runtime for AI agents that wake on production events, investigate with your logs, metrics and code, and prepare a fix you approve.\"",
+    "estado_verificacion": "VERIFICADO_OK",
+    "criterios_cumplidos": [
+      "Verificación HTTP 200 OK en perfil",
+      "Posee 14 repositorios públicos (Mínimo 3)",
+      "Demuestra stack activo de IA/agentes/integración",
+      "Señal comercial clara para Indie Builder / AI Developer (Lab Seat)"
+    ],
+    "tipo_comprador": "Indie Builder / AI Developer (Lab Seat)",
+    "repos_publicos": 14,
+    "stack_detectado": [
+      "Rust",
+      "MDX",
+      "TypeScript",
+      "Zig"
+    ],
+    "por_que_compraria": "Mantenedor de 'agentsfleet'. Requiere staging hosted 24/7.",
+    "objecion_esperada": "Prefiero ejecutar localmente en mi PC o servidor personal [HIPÓTESIS].",
+    "oferta_sugerida": "$6 Day Pass / $15 Trial",
+    "nivel_confianza": "Alto",
+    "mejor_siguiente_accion": "Ofrecer Day Pass ($6) para aislar ejecuciones sin agotar RAM local."
+  },
+  {
+    "handle": "Eliav2",
+    "canal": "GitHub",
+    "url_perfil": "https://github.com/Eliav2",
+    "fecha_consulta": "2026-11-03",
+    "url_exacta_evidencia": "https://github.com/Eliav2/openclaw-openwebui-integration",
+    "cita_textual_fuente": "\"Chat with your OpenClaw agents from Open WebUI and watch them work: tool calls as cards, questions as dialogs, sub-agents in a live panel.\"",
+    "estado_verificacion": "VERIFICADO_OK",
+    "criterios_cumplidos": [
+      "Verificación HTTP 200 OK en perfil",
+      "Posee 47 repositorios públicos (Mínimo 3)",
+      "Demuestra stack activo de IA/agentes/integración",
+      "Señal comercial clara para Indie Builder / AI Developer (Lab Seat)"
+    ],
+    "tipo_comprador": "Indie Builder / AI Developer (Lab Seat)",
+    "repos_publicos": 47,
+    "stack_detectado": [
+      "Python",
+      "Tcl",
+      "TypeScript",
+      "Shell",
+      "HTML"
+    ],
+    "por_que_compraria": "Mantenedor de 'openclaw-openwebui-integration'. Requiere staging hosted 24/7.",
+    "objecion_esperada": "Prefiero ejecutar localmente en mi PC o servidor personal [HIPÓTESIS].",
+    "oferta_sugerida": "$6 Day Pass / $15 Trial",
+    "nivel_confianza": "Alto",
+    "mejor_siguiente_accion": "Ofrecer Day Pass ($6) para aislar ejecuciones sin agotar RAM local."
+  },
+  {
+    "handle": "hashgraph-online",
+    "canal": "GitHub",
+    "url_perfil": "https://github.com/hashgraph-online",
+    "fecha_consulta": "2026-11-03",
+    "url_exacta_evidencia": "https://github.com/hashgraph-online/hol-guard",
+    "cita_textual_fuente": "\"Open-source antivirus and firewall for AI agents: block risky tools, secret access, prompt injection, malicious packages, MCP servers, plugins, and skills at runtime.\"",
+    "estado_verificacion": "VERIFICADO_OK",
+    "criterios_cumplidos": [
+      "Verificación HTTP 200 OK en perfil",
+      "Posee 66 repositorios públicos (Mínimo 3)",
+      "Demuestra stack activo de IA/agentes/integración",
+      "Señal comercial clara para Indie Builder / AI Developer (Lab Seat)"
+    ],
+    "tipo_comprador": "Indie Builder / AI Developer (Lab Seat)",
+    "repos_publicos": 66,
+    "stack_detectado": [
+      "Python",
+      "Rust",
+      "TypeScript",
+      "Shell",
+      "JavaScript"
+    ],
+    "por_que_compraria": "Mantenedor de 'hol-guard'. Requiere staging hosted 24/7.",
+    "objecion_esperada": "Prefiero ejecutar localmente en mi PC o servidor personal [HIPÓTESIS].",
+    "oferta_sugerida": "$6 Day Pass / $15 Trial",
+    "nivel_confianza": "Alto",
+    "mejor_siguiente_accion": "Ofrecer Day Pass ($6) para aislar ejecuciones sin agotar RAM local."
+  },
+  {
+    "handle": "mshadianto",
+    "canal": "GitHub",
+    "url_perfil": "https://github.com/mshadianto",
+    "fecha_consulta": "2026-11-03",
+    "url_exacta_evidencia": "https://github.com/mshadianto/kantor-ai-lite",
+    "cita_textual_fuente": "\"Kantor virtual 3D untuk tim AI agent-mu: three.js + Blender, live dari OpenClaw atau framework apa pun\"",
+    "estado_verificacion": "VERIFICADO_OK",
+    "criterios_cumplidos": [
+      "Verificación HTTP 200 OK en perfil",
+      "Posee 106 repositorios públicos (Mínimo 3)",
+      "Demuestra stack activo de IA/agentes/integración",
+      "Señal comercial clara para Indie Builder / AI Developer (Lab Seat)"
+    ],
+    "tipo_comprador": "Indie Builder / AI Developer (Lab Seat)",
+    "repos_publicos": 106,
+    "stack_detectado": [
+      "Python",
+      "TypeScript",
+      "JavaScript",
+      "HTML"
+    ],
+    "por_que_compraria": "Mantenedor de 'kantor-ai-lite'. Requiere staging hosted 24/7.",
+    "objecion_esperada": "Prefiero ejecutar localmente en mi PC o servidor personal [HIPÓTESIS].",
+    "oferta_sugerida": "$6 Day Pass / $15 Trial",
+    "nivel_confianza": "Alto",
+    "mejor_siguiente_accion": "Ofrecer Day Pass ($6) para aislar ejecuciones sin agotar RAM local."
+  },
+  {
+    "handle": "codeofaxel",
+    "canal": "GitHub",
+    "url_perfil": "https://github.com/codeofaxel",
+    "fecha_consulta": "2026-11-03",
+    "url_exacta_evidencia": "https://github.com/codeofaxel/Kiln",
+    "cita_textual_fuente": "\"From idea to object, and every version in between. Kiln is the open-source MCP server for 3D printing: AI agents (ChatGPT, Claude, Codex, Cursor, Gemini, Grok, Hermes Agent, or any MCP client) design, slice and print on Bambu Lab, Creality, Prusa, Elegoo, Klipper, OctoPrint and more. Git-style version control: branch, merge and undo your designs.\"",
     "estado_verificacion": "VERIFICADO_OK",
     "criterios_cumplidos": [
       "Verificación HTTP 200 OK en perfil",
@@ -115,21 +661,296 @@
     "tipo_comprador": "Indie Builder / AI Developer (Lab Seat)",
     "repos_publicos": 7,
     "stack_detectado": [
-      "JavaScript",
-      "HTML",
-      "Jupyter Notebook"
+      "Python"
     ],
-    "por_que_compraria": "Mantenedor de 'space-journey-mcp-engine'. Requiere staging hosted 24/7.",
-    "objecion_esperada": "Prefiero seguir ejecutando localmente en mi PC o servidor personal [HIPÓTESIS].",
+    "por_que_compraria": "Mantenedor de 'Kiln'. Requiere staging hosted 24/7.",
+    "objecion_esperada": "Prefiero ejecutar localmente en mi PC o servidor personal [HIPÓTESIS].",
     "oferta_sugerida": "$6 Day Pass / $15 Trial",
     "nivel_confianza": "Alto",
     "mejor_siguiente_accion": "Ofrecer Day Pass ($6) para aislar ejecuciones sin agotar RAM local."
   },
   {
-    "handle": "mohamed-ashraf-elsaed",
+    "handle": "dmthepm",
     "canal": "GitHub",
-    "url_fuente": "https://github.com/mohamed-ashraf-elsaed",
-    "fecha_verificacion": "2026-10-30",
+    "url_perfil": "https://github.com/dmthepm",
+    "fecha_consulta": "2026-11-03",
+    "url_exacta_evidencia": "https://github.com/dmthepm/mainbranch",
+    "cita_textual_fuente": "\"Files-first operating system for internet businesses: research, decisions, bets, pushes, and outputs in markdown/git, with an mb CLI and agent workflows that hide the plumbing.\"",
+    "estado_verificacion": "VERIFICADO_OK",
+    "criterios_cumplidos": [
+      "Verificación HTTP 200 OK en perfil",
+      "Posee 7 repositorios públicos (Mínimo 3)",
+      "Demuestra stack activo de IA/agentes/integración",
+      "Señal comercial clara para Indie Builder / AI Developer (Lab Seat)"
+    ],
+    "tipo_comprador": "Indie Builder / AI Developer (Lab Seat)",
+    "repos_publicos": 7,
+    "stack_detectado": [
+      "TypeScript",
+      "Python",
+      "JavaScript"
+    ],
+    "por_que_compraria": "Mantenedor de 'mainbranch'. Requiere staging hosted 24/7.",
+    "objecion_esperada": "Prefiero ejecutar localmente en mi PC o servidor personal [HIPÓTESIS].",
+    "oferta_sugerida": "$6 Day Pass / $15 Trial",
+    "nivel_confianza": "Alto",
+    "mejor_siguiente_accion": "Ofrecer Day Pass ($6) para aislar ejecuciones sin agotar RAM local."
+  },
+  {
+    "handle": "noopolis",
+    "canal": "GitHub",
+    "url_perfil": "https://github.com/noopolis",
+    "fecha_consulta": "2026-11-03",
+    "url_exacta_evidencia": "https://github.com/noopolis/spawnfile",
+    "cita_textual_fuente": "\"A spec and compiler for autonomous agent runtimes and agentic organizations. Write your agent once, compile for any runtime\"",
+    "estado_verificacion": "VERIFICADO_OK",
+    "criterios_cumplidos": [
+      "Verificación HTTP 200 OK en perfil",
+      "Posee 11 repositorios públicos (Mínimo 3)",
+      "Demuestra stack activo de IA/agentes/integración",
+      "Señal comercial clara para Indie Builder / AI Developer (Lab Seat)"
+    ],
+    "tipo_comprador": "Indie Builder / AI Developer (Lab Seat)",
+    "repos_publicos": 11,
+    "stack_detectado": [
+      "Go",
+      "TypeScript"
+    ],
+    "por_que_compraria": "Mantenedor de 'spawnfile'. Requiere staging hosted 24/7.",
+    "objecion_esperada": "Prefiero ejecutar localmente en mi PC o servidor personal [HIPÓTESIS].",
+    "oferta_sugerida": "$6 Day Pass / $15 Trial",
+    "nivel_confianza": "Alto",
+    "mejor_siguiente_accion": "Ofrecer Day Pass ($6) para aislar ejecuciones sin agotar RAM local."
+  },
+  {
+    "handle": "ZeroDayEvil",
+    "canal": "GitHub",
+    "url_perfil": "https://github.com/ZeroDayEvil",
+    "fecha_consulta": "2026-11-03",
+    "url_exacta_evidencia": "https://github.com/ZeroDayEvil/ai-security-tool",
+    "cita_textual_fuente": "\"🛡️ Free open-source AI-powered security terminal & vulnerability scanner (CVE, SBOM). Supports SSH, SFTP, RDP, VNC, Serial, and 12+ autonomous AI agents (DeepSeek, OpenAI) for automated security workflows, CTF & DevSecOps. Cross-platform & Web UI.\"",
+    "estado_verificacion": "VERIFICADO_OK",
+    "criterios_cumplidos": [
+      "Verificación HTTP 200 OK en perfil",
+      "Posee 20 repositorios públicos (Mínimo 3)",
+      "Demuestra stack activo de IA/agentes/integración",
+      "Señal comercial clara para Indie Builder / AI Developer (Lab Seat)"
+    ],
+    "tipo_comprador": "Indie Builder / AI Developer (Lab Seat)",
+    "repos_publicos": 20,
+    "stack_detectado": [
+      "HTML"
+    ],
+    "por_que_compraria": "Mantenedor de 'ai-security-tool'. Requiere staging hosted 24/7.",
+    "objecion_esperada": "Prefiero ejecutar localmente en mi PC o servidor personal [HIPÓTESIS].",
+    "oferta_sugerida": "$6 Day Pass / $15 Trial",
+    "nivel_confianza": "Alto",
+    "mejor_siguiente_accion": "Ofrecer Day Pass ($6) para aislar ejecuciones sin agotar RAM local."
+  },
+  {
+    "handle": "lbailey94",
+    "canal": "GitHub",
+    "url_perfil": "https://github.com/lbailey94",
+    "fecha_consulta": "2026-11-03",
+    "url_exacta_evidencia": "https://github.com/lbailey94/whitemagic",
+    "cita_textual_fuente": "\"Local-first, governed memory and session continuity for AI coding agents, over MCP - verifiable handoffs via signed continuity receipts. Rust, MIT, no telemetry by default.\"",
+    "estado_verificacion": "VERIFICADO_OK",
+    "criterios_cumplidos": [
+      "Verificación HTTP 200 OK en perfil",
+      "Posee 20 repositorios públicos (Mínimo 3)",
+      "Demuestra stack activo de IA/agentes/integración",
+      "Señal comercial clara para Indie Builder / AI Developer (Lab Seat)"
+    ],
+    "tipo_comprador": "Indie Builder / AI Developer (Lab Seat)",
+    "repos_publicos": 20,
+    "stack_detectado": [
+      "Rust",
+      "Python",
+      "JavaScript",
+      "TypeScript"
+    ],
+    "por_que_compraria": "Mantenedor de 'whitemagic'. Requiere staging hosted 24/7.",
+    "objecion_esperada": "Prefiero ejecutar localmente en mi PC o servidor personal [HIPÓTESIS].",
+    "oferta_sugerida": "$6 Day Pass / $15 Trial",
+    "nivel_confianza": "Alto",
+    "mejor_siguiente_accion": "Ofrecer Day Pass ($6) para aislar ejecuciones sin agotar RAM local."
+  },
+  {
+    "handle": "runkids",
+    "canal": "GitHub",
+    "url_perfil": "https://github.com/runkids",
+    "fecha_consulta": "2026-11-03",
+    "url_exacta_evidencia": "https://github.com/runkids/figlens",
+    "cita_textual_fuente": "\"🔍 Design details for coding agents to build, compare and follow changes: layout, SVG assets, bundle checks, screenshot comparisons and saved-revision tracking. Reads Figma .fig files offline. CLI, MCP and host plugins.\"",
+    "estado_verificacion": "VERIFICADO_OK",
+    "criterios_cumplidos": [
+      "Verificación HTTP 200 OK en perfil",
+      "Posee 58 repositorios públicos (Mínimo 3)",
+      "Demuestra stack activo de IA/agentes/integración",
+      "Señal comercial clara para Indie Builder / AI Developer (Lab Seat)"
+    ],
+    "tipo_comprador": "Indie Builder / AI Developer (Lab Seat)",
+    "repos_publicos": 58,
+    "stack_detectado": [
+      "Go",
+      "Python",
+      "Rust",
+      "TypeScript",
+      "Ruby",
+      "Shell",
+      "HTML"
+    ],
+    "por_que_compraria": "Mantenedor de 'figlens'. Requiere staging hosted 24/7.",
+    "objecion_esperada": "Prefiero ejecutar localmente en mi PC o servidor personal [HIPÓTESIS].",
+    "oferta_sugerida": "$6 Day Pass / $15 Trial",
+    "nivel_confianza": "Alto",
+    "mejor_siguiente_accion": "Ofrecer Day Pass ($6) para aislar ejecuciones sin agotar RAM local."
+  },
+  {
+    "handle": "tecno-consultores",
+    "canal": "GitHub",
+    "url_perfil": "https://github.com/tecno-consultores",
+    "fecha_consulta": "2026-11-03",
+    "url_exacta_evidencia": "https://github.com/tecno-consultores/RoSGrid",
+    "cita_textual_fuente": "\"Consola web centralizada Multi-Tenant y Servidor MCP (IA) para la gestión, diagnóstico, respaldos Git-Diff y auditoría inmutable WORM de flotas MikroTik RouterOS v7+ vía REST API (FastAPI + Vue 3 + PostgreSQL 17 + KeyDB).\"",
+    "estado_verificacion": "VERIFICADO_OK",
+    "criterios_cumplidos": [
+      "Verificación HTTP 200 OK en perfil",
+      "Posee 46 repositorios públicos (Mínimo 3)",
+      "Demuestra stack activo de IA/agentes/integración",
+      "Señal comercial clara para Indie Builder / AI Developer (Lab Seat)"
+    ],
+    "tipo_comprador": "Indie Builder / AI Developer (Lab Seat)",
+    "repos_publicos": 46,
+    "stack_detectado": [
+      "Python",
+      "TypeScript",
+      "RouterOS Script",
+      "Shell"
+    ],
+    "por_que_compraria": "Mantenedor de 'RoSGrid'. Requiere staging hosted 24/7.",
+    "objecion_esperada": "Prefiero ejecutar localmente en mi PC o servidor personal [HIPÓTESIS].",
+    "oferta_sugerida": "$6 Day Pass / $15 Trial",
+    "nivel_confianza": "Alto",
+    "mejor_siguiente_accion": "Ofrecer Day Pass ($6) para aislar ejecuciones sin agotar RAM local."
+  },
+  {
+    "handle": "OWASP",
+    "canal": "GitHub",
+    "url_perfil": "https://github.com/OWASP",
+    "fecha_consulta": "2026-11-03",
+    "url_exacta_evidencia": "https://github.com/OWASP/www-project-agent-memory-guard",
+    "cita_textual_fuente": "\"Runtime defense against memory poisoning in AI agents (OWASP ASI06). Drop-in for LangChain, OpenAI Agents, AutoGen, CrewAI and mem0.\"",
+    "estado_verificacion": "VERIFICADO_OK",
+    "criterios_cumplidos": [
+      "Verificación HTTP 200 OK en perfil",
+      "Posee 1442 repositorios públicos (Mínimo 3)",
+      "Demuestra stack activo de IA/agentes/integración",
+      "Señal comercial clara para Indie Builder / AI Developer (Lab Seat)"
+    ],
+    "tipo_comprador": "Indie Builder / AI Developer (Lab Seat)",
+    "repos_publicos": 1442,
+    "stack_detectado": [
+      "Python",
+      "TypeScript",
+      "CSS",
+      "JavaScript",
+      "HTML"
+    ],
+    "por_que_compraria": "Mantenedor de 'www-project-agent-memory-guard'. Requiere staging hosted 24/7.",
+    "objecion_esperada": "Prefiero ejecutar localmente en mi PC o servidor personal [HIPÓTESIS].",
+    "oferta_sugerida": "$6 Day Pass / $15 Trial",
+    "nivel_confianza": "Alto",
+    "mejor_siguiente_accion": "Ofrecer Day Pass ($6) para aislar ejecuciones sin agotar RAM local."
+  },
+  {
+    "handle": "autonomous-ai",
+    "canal": "GitHub",
+    "url_perfil": "https://github.com/autonomous-ai",
+    "fecha_consulta": "2026-11-03",
+    "url_exacta_evidencia": "https://github.com/autonomous-ai/openharness",
+    "cita_textual_fuente": "\"The ultimate harness for coding agents and beyond. All your agents. All your machines. One command center. Start with code, then follow your curiosity and build across disciplines: CAD, circuits, robots, games and music.\"",
+    "estado_verificacion": "VERIFICADO_OK",
+    "criterios_cumplidos": [
+      "Verificación HTTP 200 OK en perfil",
+      "Posee 27 repositorios públicos (Mínimo 3)",
+      "Demuestra stack activo de IA/agentes/integración",
+      "Señal comercial clara para Indie Builder / AI Developer (Lab Seat)"
+    ],
+    "tipo_comprador": "Indie Builder / AI Developer (Lab Seat)",
+    "repos_publicos": 27,
+    "stack_detectado": [
+      "Python",
+      "TypeScript"
+    ],
+    "por_que_compraria": "Mantenedor de 'openharness'. Requiere staging hosted 24/7.",
+    "objecion_esperada": "Prefiero ejecutar localmente en mi PC o servidor personal [HIPÓTESIS].",
+    "oferta_sugerida": "$6 Day Pass / $15 Trial",
+    "nivel_confianza": "Alto",
+    "mejor_siguiente_accion": "Ofrecer Day Pass ($6) para aislar ejecuciones sin agotar RAM local."
+  },
+  {
+    "handle": "extensiondev",
+    "canal": "GitHub",
+    "url_perfil": "https://github.com/extensiondev",
+    "fecha_consulta": "2026-11-03",
+    "url_exacta_evidencia": "https://github.com/extensiondev/mcp",
+    "cita_textual_fuente": "\"MCP server that lets AI agents build, run, inspect, and publish browser extensions. 30 tools for scaffolding, live DOM inspection, log streaming, and store-ready builds across Chrome, Edge, Firefox, Safari, and every Chromium- or Gecko-based browser.\"",
+    "estado_verificacion": "VERIFICADO_OK",
+    "criterios_cumplidos": [
+      "Verificación HTTP 200 OK en perfil",
+      "Posee 4 repositorios públicos (Mínimo 3)",
+      "Demuestra stack activo de IA/agentes/integración",
+      "Señal comercial clara para Indie Builder / AI Developer (Lab Seat)"
+    ],
+    "tipo_comprador": "Indie Builder / AI Developer (Lab Seat)",
+    "repos_publicos": 4,
+    "stack_detectado": [
+      "JavaScript",
+      "TypeScript"
+    ],
+    "por_que_compraria": "Mantenedor de 'mcp'. Requiere staging hosted 24/7.",
+    "objecion_esperada": "Prefiero ejecutar localmente en mi PC o servidor personal [HIPÓTESIS].",
+    "oferta_sugerida": "$6 Day Pass / $15 Trial",
+    "nivel_confianza": "Alto",
+    "mejor_siguiente_accion": "Ofrecer Day Pass ($6) para aislar ejecuciones sin agotar RAM local."
+  },
+  {
+    "handle": "evb0110",
+    "canal": "GitHub",
+    "url_perfil": "https://github.com/evb0110",
+    "fecha_consulta": "2026-11-03",
+    "url_exacta_evidencia": "https://github.com/evb0110/evb-viewer",
+    "cita_textual_fuente": "\"Scanned-document workbench that AI agents can operate: clean, OCR, annotate PDF and DjVu, with a local MCP server. macOS, Windows, Linux, Web.\"",
+    "estado_verificacion": "VERIFICADO_OK",
+    "criterios_cumplidos": [
+      "Verificación HTTP 200 OK en perfil",
+      "Posee 131 repositorios públicos (Mínimo 3)",
+      "Demuestra stack activo de IA/agentes/integración",
+      "Señal comercial clara para Indie Builder / AI Developer (Lab Seat)"
+    ],
+    "tipo_comprador": "Indie Builder / AI Developer (Lab Seat)",
+    "repos_publicos": 131,
+    "stack_detectado": [
+      "Rust",
+      "TypeScript",
+      "CSS",
+      "Swift",
+      "HTML"
+    ],
+    "por_que_compraria": "Mantenedor de 'evb-viewer'. Requiere staging hosted 24/7.",
+    "objecion_esperada": "Prefiero ejecutar localmente en mi PC o servidor personal [HIPÓTESIS].",
+    "oferta_sugerida": "$6 Day Pass / $15 Trial",
+    "nivel_confianza": "Alto",
+    "mejor_siguiente_accion": "Ofrecer Day Pass ($6) para aislar ejecuciones sin agotar RAM local."
+  },
+  {
+    "handle": "bruce601080102",
+    "canal": "GitHub",
+    "url_perfil": "https://github.com/bruce601080102",
+    "fecha_consulta": "2026-11-03",
+    "url_exacta_evidencia": "https://github.com/bruce601080102/ccc-mcp",
+    "cita_textual_fuente": "\"Stop trusting \"tests passed.\" Orchestrate ChatGPT, Codex & Claude Code over MCP, with evidence for every handoff: host-run tests, versioned shared context, quota fallback and recoverable tasks.\"",
     "estado_verificacion": "VERIFICADO_OK",
     "criterios_cumplidos": [
       "Verificación HTTP 200 OK en perfil",
@@ -140,60 +961,340 @@
     "tipo_comprador": "Indie Builder / AI Developer (Lab Seat)",
     "repos_publicos": 31,
     "stack_detectado": [
-      "JavaScript",
-      "PHP",
-      "HTML",
-      "TypeScript"
-    ],
-    "por_que_compraria": "Mantenedor de 'aletheia-mem'. Requiere staging hosted 24/7.",
-    "objecion_esperada": "Prefiero seguir ejecutando localmente en mi PC o servidor personal [HIPÓTESIS].",
-    "oferta_sugerida": "$6 Day Pass / $15 Trial",
-    "nivel_confianza": "Alto",
-    "mejor_siguiente_accion": "Ofrecer Day Pass ($6) para aislar ejecuciones sin agotar RAM local."
-  },
-  {
-    "handle": "saekulhadi12-design",
-    "canal": "GitHub",
-    "url_fuente": "https://github.com/saekulhadi12-design",
-    "fecha_verificacion": "2026-10-30",
-    "estado_verificacion": "VERIFICADO_OK",
-    "criterios_cumplidos": [
-      "Verificación HTTP 200 OK en perfil",
-      "Posee 23 repositorios públicos (Mínimo 3)",
-      "Demuestra stack activo de IA/agentes/integración",
-      "Señal comercial clara para Indie Builder / AI Developer (Lab Seat)"
-    ],
-    "tipo_comprador": "Indie Builder / AI Developer (Lab Seat)",
-    "repos_publicos": 23,
-    "stack_detectado": [
+      "Go",
+      "Python",
+      "CSS",
+      "Shell",
       "HTML"
     ],
-    "por_que_compraria": "Mantenedor de 'nexus-parallel-memory'. Requiere staging hosted 24/7.",
-    "objecion_esperada": "Prefiero seguir ejecutando localmente en mi PC o servidor personal [HIPÓTESIS].",
+    "por_que_compraria": "Mantenedor de 'ccc-mcp'. Requiere staging hosted 24/7.",
+    "objecion_esperada": "Prefiero ejecutar localmente en mi PC o servidor personal [HIPÓTESIS].",
     "oferta_sugerida": "$6 Day Pass / $15 Trial",
     "nivel_confianza": "Alto",
     "mejor_siguiente_accion": "Ofrecer Day Pass ($6) para aislar ejecuciones sin agotar RAM local."
   },
   {
-    "handle": "DeusData",
+    "handle": "manufosela",
     "canal": "GitHub",
-    "url_fuente": "https://github.com/DeusData",
-    "fecha_verificacion": "2026-10-30",
+    "url_perfil": "https://github.com/manufosela",
+    "fecha_consulta": "2026-11-03",
+    "url_exacta_evidencia": "https://github.com/manufosela/karajan-code",
+    "cita_textual_fuente": "\"Your AI writes the code; Karajan governs how it happens: TDD-first method, cross-AI review on every commit and git gates that make a false green impossible. Works with Claude, Codex, Gemini, OpenCode and Aider, on the subscriptions you already pay for. MCP server included.\"",
     "estado_verificacion": "VERIFICADO_OK",
     "criterios_cumplidos": [
       "Verificación HTTP 200 OK en perfil",
-      "Posee 22 repositorios públicos (Mínimo 3)",
+      "Posee 229 repositorios públicos (Mínimo 3)",
       "Demuestra stack activo de IA/agentes/integración",
       "Señal comercial clara para Indie Builder / AI Developer (Lab Seat)"
     ],
     "tipo_comprador": "Indie Builder / AI Developer (Lab Seat)",
-    "repos_publicos": 22,
+    "repos_publicos": 229,
+    "stack_detectado": [
+      "JavaScript",
+      "Astro"
+    ],
+    "por_que_compraria": "Mantenedor de 'karajan-code'. Requiere staging hosted 24/7.",
+    "objecion_esperada": "Prefiero ejecutar localmente en mi PC o servidor personal [HIPÓTESIS].",
+    "oferta_sugerida": "$6 Day Pass / $15 Trial",
+    "nivel_confianza": "Alto",
+    "mejor_siguiente_accion": "Ofrecer Day Pass ($6) para aislar ejecuciones sin agotar RAM local."
+  },
+  {
+    "handle": "TheoDgb",
+    "canal": "GitHub",
+    "url_perfil": "https://github.com/TheoDgb",
+    "fecha_consulta": "2026-11-03",
+    "url_exacta_evidencia": "https://github.com/TheoDgb/AgentPilot",
+    "cita_textual_fuente": "\"Agentic AI platform to deploy, monitor and evaluate Claude agents on a simulated e-commerce system: automated customer support with human approval, incident diagnosis, MCP integration, observability and CI evals.\"",
+    "estado_verificacion": "VERIFICADO_OK",
+    "criterios_cumplidos": [
+      "Verificación HTTP 200 OK en perfil",
+      "Posee 12 repositorios públicos (Mínimo 3)",
+      "Demuestra stack activo de IA/agentes/integración",
+      "Señal comercial clara para Indie Builder / AI Developer (Lab Seat)"
+    ],
+    "tipo_comprador": "Indie Builder / AI Developer (Lab Seat)",
+    "repos_publicos": 12,
     "stack_detectado": [
       "Python",
-      "C"
+      "JavaScript",
+      "Java",
+      "HTML"
     ],
-    "por_que_compraria": "Mantenedor de 'codebase-memory-mcp'. Requiere staging hosted 24/7.",
-    "objecion_esperada": "Prefiero seguir ejecutando localmente en mi PC o servidor personal [HIPÓTESIS].",
+    "por_que_compraria": "Mantenedor de 'AgentPilot'. Requiere staging hosted 24/7.",
+    "objecion_esperada": "Prefiero ejecutar localmente en mi PC o servidor personal [HIPÓTESIS].",
+    "oferta_sugerida": "$6 Day Pass / $15 Trial",
+    "nivel_confianza": "Alto",
+    "mejor_siguiente_accion": "Ofrecer Day Pass ($6) para aislar ejecuciones sin agotar RAM local."
+  },
+  {
+    "handle": "alex-voloshin-dev",
+    "canal": "GitHub",
+    "url_perfil": "https://github.com/alex-voloshin-dev",
+    "fecha_consulta": "2026-11-03",
+    "url_exacta_evidencia": "https://github.com/alex-voloshin-dev/kommutator",
+    "cita_textual_fuente": "\"Self-hosted messaging, topics and shared boards for coding-agent sessions. Claude Code and Codex integrations; MIT licensed.\"",
+    "estado_verificacion": "VERIFICADO_OK",
+    "criterios_cumplidos": [
+      "Verificación HTTP 200 OK en perfil",
+      "Posee 6 repositorios públicos (Mínimo 3)",
+      "Demuestra stack activo de IA/agentes/integración",
+      "Señal comercial clara para Indie Builder / AI Developer (Lab Seat)"
+    ],
+    "tipo_comprador": "Indie Builder / AI Developer (Lab Seat)",
+    "repos_publicos": 6,
+    "stack_detectado": [
+      "Python",
+      "TypeScript"
+    ],
+    "por_que_compraria": "Mantenedor de 'kommutator'. Requiere staging hosted 24/7.",
+    "objecion_esperada": "Prefiero ejecutar localmente en mi PC o servidor personal [HIPÓTESIS].",
+    "oferta_sugerida": "$6 Day Pass / $15 Trial",
+    "nivel_confianza": "Alto",
+    "mejor_siguiente_accion": "Ofrecer Day Pass ($6) para aislar ejecuciones sin agotar RAM local."
+  },
+  {
+    "handle": "IvanMurzak",
+    "canal": "GitHub",
+    "url_perfil": "https://github.com/IvanMurzak",
+    "fecha_consulta": "2026-11-03",
+    "url_exacta_evidencia": "https://github.com/IvanMurzak/Godot-MCP",
+    "cita_textual_fuente": "\"Godot-MCP — Model Context Protocol (MCP) integration for the Godot Engine. AI tools for the Godot Editor in C#, with cloud connection to ai-game.dev. Apache-2.0.\"",
+    "estado_verificacion": "VERIFICADO_OK",
+    "criterios_cumplidos": [
+      "Verificación HTTP 200 OK en perfil",
+      "Posee 139 repositorios públicos (Mínimo 3)",
+      "Demuestra stack activo de IA/agentes/integración",
+      "Señal comercial clara para Indie Builder / AI Developer (Lab Seat)"
+    ],
+    "tipo_comprador": "Indie Builder / AI Developer (Lab Seat)",
+    "repos_publicos": 139,
+    "stack_detectado": [
+      "PowerShell",
+      "JavaScript",
+      "C#",
+      "C++"
+    ],
+    "por_que_compraria": "Mantenedor de 'Godot-MCP'. Requiere staging hosted 24/7.",
+    "objecion_esperada": "Prefiero ejecutar localmente en mi PC o servidor personal [HIPÓTESIS].",
+    "oferta_sugerida": "$6 Day Pass / $15 Trial",
+    "nivel_confianza": "Alto",
+    "mejor_siguiente_accion": "Ofrecer Day Pass ($6) para aislar ejecuciones sin agotar RAM local."
+  },
+  {
+    "handle": "Fedekawa",
+    "canal": "GitHub",
+    "url_perfil": "https://github.com/Fedekawa",
+    "fecha_consulta": "2026-11-03",
+    "url_exacta_evidencia": "https://github.com/Fedekawa/claude-session-orchestration",
+    "cita_textual_fuente": "\"Skills and agents for orchestrator/worker Claude Code sessions: briefs, isolation, review, integration, plus docs-vs-code sync and a self-review gate.\"",
+    "estado_verificacion": "VERIFICADO_OK",
+    "criterios_cumplidos": [
+      "Verificación HTTP 200 OK en perfil",
+      "Posee 11 repositorios públicos (Mínimo 3)",
+      "Demuestra stack activo de IA/agentes/integración",
+      "Señal comercial clara para Indie Builder / AI Developer (Lab Seat)"
+    ],
+    "tipo_comprador": "Indie Builder / AI Developer (Lab Seat)",
+    "repos_publicos": 11,
+    "stack_detectado": [
+      "JavaScript",
+      "TypeScript",
+      "HTML"
+    ],
+    "por_que_compraria": "Mantenedor de 'claude-session-orchestration'. Requiere staging hosted 24/7.",
+    "objecion_esperada": "Prefiero ejecutar localmente en mi PC o servidor personal [HIPÓTESIS].",
+    "oferta_sugerida": "$6 Day Pass / $15 Trial",
+    "nivel_confianza": "Alto",
+    "mejor_siguiente_accion": "Ofrecer Day Pass ($6) para aislar ejecuciones sin agotar RAM local."
+  },
+  {
+    "handle": "etamong-playground",
+    "canal": "GitHub",
+    "url_perfil": "https://github.com/etamong-playground",
+    "fecha_consulta": "2026-11-03",
+    "url_exacta_evidencia": "https://github.com/etamong-playground/agent-plugins",
+    "cita_textual_fuente": "\"Public service integrations for Codex and Claude Code: MCP connections, skills and plugins.\"",
+    "estado_verificacion": "VERIFICADO_OK",
+    "criterios_cumplidos": [
+      "Verificación HTTP 200 OK en perfil",
+      "Posee 17 repositorios públicos (Mínimo 3)",
+      "Demuestra stack activo de IA/agentes/integración",
+      "Señal comercial clara para Indie Builder / AI Developer (Lab Seat)"
+    ],
+    "tipo_comprador": "Indie Builder / AI Developer (Lab Seat)",
+    "repos_publicos": 17,
+    "stack_detectado": [
+      "Go",
+      "Python",
+      "Rust",
+      "TypeScript",
+      "JavaScript"
+    ],
+    "por_que_compraria": "Mantenedor de 'agent-plugins'. Requiere staging hosted 24/7.",
+    "objecion_esperada": "Prefiero ejecutar localmente en mi PC o servidor personal [HIPÓTESIS].",
+    "oferta_sugerida": "$6 Day Pass / $15 Trial",
+    "nivel_confianza": "Alto",
+    "mejor_siguiente_accion": "Ofrecer Day Pass ($6) para aislar ejecuciones sin agotar RAM local."
+  },
+  {
+    "handle": "legott-ai",
+    "canal": "GitHub",
+    "url_perfil": "https://github.com/legott-ai",
+    "fecha_consulta": "2026-11-03",
+    "url_exacta_evidencia": "https://github.com/legott-ai/habitude-agent-integrations",
+    "cita_textual_fuente": "\"Habitude journal skills and local MCP plugins for Hermes Agent, ChatGPT desktop, and Claude Code\"",
+    "estado_verificacion": "VERIFICADO_OK",
+    "criterios_cumplidos": [
+      "Verificación HTTP 200 OK en perfil",
+      "Posee 11 repositorios públicos (Mínimo 3)",
+      "Demuestra stack activo de IA/agentes/integración",
+      "Señal comercial clara para Indie Builder / AI Developer (Lab Seat)"
+    ],
+    "tipo_comprador": "Indie Builder / AI Developer (Lab Seat)",
+    "repos_publicos": 11,
+    "stack_detectado": [
+      "Python",
+      "Rust",
+      "TypeScript",
+      "C++",
+      "JavaScript",
+      "HTML"
+    ],
+    "por_que_compraria": "Mantenedor de 'habitude-agent-integrations'. Requiere staging hosted 24/7.",
+    "objecion_esperada": "Prefiero ejecutar localmente en mi PC o servidor personal [HIPÓTESIS].",
+    "oferta_sugerida": "$6 Day Pass / $15 Trial",
+    "nivel_confianza": "Alto",
+    "mejor_siguiente_accion": "Ofrecer Day Pass ($6) para aislar ejecuciones sin agotar RAM local."
+  },
+  {
+    "handle": "roquerodrigo",
+    "canal": "GitHub",
+    "url_perfil": "https://github.com/roquerodrigo",
+    "fecha_consulta": "2026-11-03",
+    "url_exacta_evidencia": "https://github.com/roquerodrigo/ha-integration-dev-skill",
+    "cita_textual_fuente": "\"Claude Code plugin for developing Home Assistant custom integrations\"",
+    "estado_verificacion": "VERIFICADO_OK",
+    "criterios_cumplidos": [
+      "Verificación HTTP 200 OK en perfil",
+      "Posee 51 repositorios públicos (Mínimo 3)",
+      "Demuestra stack activo de IA/agentes/integración",
+      "Señal comercial clara para Indie Builder / AI Developer (Lab Seat)"
+    ],
+    "tipo_comprador": "Indie Builder / AI Developer (Lab Seat)",
+    "repos_publicos": 51,
+    "stack_detectado": [
+      "Python"
+    ],
+    "por_que_compraria": "Mantenedor de 'ha-integration-dev-skill'. Requiere staging hosted 24/7.",
+    "objecion_esperada": "Prefiero ejecutar localmente en mi PC o servidor personal [HIPÓTESIS].",
+    "oferta_sugerida": "$6 Day Pass / $15 Trial",
+    "nivel_confianza": "Alto",
+    "mejor_siguiente_accion": "Ofrecer Day Pass ($6) para aislar ejecuciones sin agotar RAM local."
+  },
+  {
+    "handle": "tiflux",
+    "canal": "GitHub",
+    "url_perfil": "https://github.com/tiflux",
+    "fecha_consulta": "2026-11-03",
+    "url_exacta_evidencia": "https://github.com/tiflux/tiflux-mcp",
+    "cita_textual_fuente": "\"TiFlux MCP Server - Model Context Protocol integration for Claude Code\"",
+    "estado_verificacion": "VERIFICADO_OK",
+    "criterios_cumplidos": [
+      "Verificación HTTP 200 OK en perfil",
+      "Posee 5 repositorios públicos (Mínimo 3)",
+      "Demuestra stack activo de IA/agentes/integración",
+      "Señal comercial clara para Indie Builder / AI Developer (Lab Seat)"
+    ],
+    "tipo_comprador": "Indie Builder / AI Developer (Lab Seat)",
+    "repos_publicos": 5,
+    "stack_detectado": [
+      "Rust",
+      "JavaScript",
+      "Go",
+      "Ruby"
+    ],
+    "por_que_compraria": "Mantenedor de 'tiflux-mcp'. Requiere staging hosted 24/7.",
+    "objecion_esperada": "Prefiero ejecutar localmente en mi PC o servidor personal [HIPÓTESIS].",
+    "oferta_sugerida": "$6 Day Pass / $15 Trial",
+    "nivel_confianza": "Alto",
+    "mejor_siguiente_accion": "Ofrecer Day Pass ($6) para aislar ejecuciones sin agotar RAM local."
+  },
+  {
+    "handle": "5dive-ai",
+    "canal": "GitHub",
+    "url_perfil": "https://github.com/5dive-ai",
+    "fecha_consulta": "2026-11-03",
+    "url_exacta_evidencia": "https://github.com/5dive-ai/5dive-plugins",
+    "cita_textual_fuente": "\"Multi-harness plugin marketplace maintained by 5dive — Telegram bridge and related agent-channel integrations.\"",
+    "estado_verificacion": "VERIFICADO_OK",
+    "criterios_cumplidos": [
+      "Verificación HTTP 200 OK en perfil",
+      "Posee 25 repositorios públicos (Mínimo 3)",
+      "Demuestra stack activo de IA/agentes/integración",
+      "Señal comercial clara para Indie Builder / AI Developer (Lab Seat)"
+    ],
+    "tipo_comprador": "Indie Builder / AI Developer (Lab Seat)",
+    "repos_publicos": 25,
+    "stack_detectado": [
+      "JavaScript",
+      "Shell"
+    ],
+    "por_que_compraria": "Mantenedor de '5dive-plugins'. Requiere staging hosted 24/7.",
+    "objecion_esperada": "Prefiero ejecutar localmente en mi PC o servidor personal [HIPÓTESIS].",
+    "oferta_sugerida": "$6 Day Pass / $15 Trial",
+    "nivel_confianza": "Alto",
+    "mejor_siguiente_accion": "Ofrecer Day Pass ($6) para aislar ejecuciones sin agotar RAM local."
+  },
+  {
+    "handle": "youdotcom-oss",
+    "canal": "GitHub",
+    "url_perfil": "https://github.com/youdotcom-oss",
+    "fecha_consulta": "2026-11-03",
+    "url_exacta_evidencia": "https://github.com/youdotcom-oss/agent-skills",
+    "cita_textual_fuente": "\"You.com skills and plugins for web search, content extraction, research, finance, and integration discovery, helping AI agents build with up-to-date web context.\"",
+    "estado_verificacion": "VERIFICADO_OK",
+    "criterios_cumplidos": [
+      "Verificación HTTP 200 OK en perfil",
+      "Posee 49 repositorios públicos (Mínimo 3)",
+      "Demuestra stack activo de IA/agentes/integración",
+      "Señal comercial clara para Indie Builder / AI Developer (Lab Seat)"
+    ],
+    "tipo_comprador": "Indie Builder / AI Developer (Lab Seat)",
+    "repos_publicos": 49,
+    "stack_detectado": [
+      "Python",
+      "TypeScript",
+      "HTML"
+    ],
+    "por_que_compraria": "Mantenedor de 'agent-skills'. Requiere staging hosted 24/7.",
+    "objecion_esperada": "Prefiero ejecutar localmente en mi PC o servidor personal [HIPÓTESIS].",
+    "oferta_sugerida": "$6 Day Pass / $15 Trial",
+    "nivel_confianza": "Alto",
+    "mejor_siguiente_accion": "Ofrecer Day Pass ($6) para aislar ejecuciones sin agotar RAM local."
+  },
+  {
+    "handle": "the-media-vampire",
+    "canal": "GitHub",
+    "url_perfil": "https://github.com/the-media-vampire",
+    "fecha_consulta": "2026-11-03",
+    "url_exacta_evidencia": "https://github.com/the-media-vampire/veyrul-integrations",
+    "cita_textual_fuente": "\"Media workflows, research and code for agents. Anonymous MCP and a portable skill for Codex, Claude Code, Cursor, Gemini CLI, Copilot and OpenClaw.\"",
+    "estado_verificacion": "VERIFICADO_OK",
+    "criterios_cumplidos": [
+      "Verificación HTTP 200 OK en perfil",
+      "Posee 5 repositorios públicos (Mínimo 3)",
+      "Demuestra stack activo de IA/agentes/integración",
+      "Señal comercial clara para Indie Builder / AI Developer (Lab Seat)"
+    ],
+    "tipo_comprador": "Indie Builder / AI Developer (Lab Seat)",
+    "repos_publicos": 5,
+    "stack_detectado": [
+      "TypeScript",
+      "JavaScript"
+    ],
+    "por_que_compraria": "Mantenedor de 'veyrul-integrations'. Requiere staging hosted 24/7.",
+    "objecion_esperada": "Prefiero ejecutar localmente en mi PC o servidor personal [HIPÓTESIS].",
     "oferta_sugerida": "$6 Day Pass / $15 Trial",
     "nivel_confianza": "Alto",
     "mejor_siguiente_accion": "Ofrecer Day Pass ($6) para aislar ejecuciones sin agotar RAM local."
@@ -201,8 +1302,10 @@
   {
     "handle": "hproxy-com",
     "canal": "GitHub",
-    "url_fuente": "https://github.com/hproxy-com",
-    "fecha_verificacion": "2026-10-30",
+    "url_perfil": "https://github.com/hproxy-com",
+    "fecha_consulta": "2026-11-03",
+    "url_exacta_evidencia": "https://github.com/hproxy-com/free-proxy-list",
+    "cita_textual_fuente": "\"Free proxy list, verified around the clock: HTTP, HTTPS, SOCKS4 and SOCKS5 proxies with country, anonymity, latency and uptime on every row, updated several times a day. Live list, proxy checker, keyless API and MCP server at hproxy.com.\"",
     "estado_verificacion": "VERIFICADO_OK",
     "criterios_cumplidos": [
       "Verificación HTTP 200 OK en perfil",
@@ -216,7 +1319,83 @@
       "Rust"
     ],
     "por_que_compraria": "Mantenedor de 'free-proxy-list'. Requiere staging hosted 24/7.",
-    "objecion_esperada": "Prefiero seguir ejecutando localmente en mi PC o servidor personal [HIPÓTESIS].",
+    "objecion_esperada": "Prefiero ejecutar localmente en mi PC o servidor personal [HIPÓTESIS].",
+    "oferta_sugerida": "$6 Day Pass / $15 Trial",
+    "nivel_confianza": "Medio",
+    "mejor_siguiente_accion": "Ofrecer Day Pass ($6) para aislar ejecuciones sin agotar RAM local."
+  },
+  {
+    "handle": "MartinsMessias",
+    "canal": "GitHub",
+    "url_perfil": "https://github.com/MartinsMessias",
+    "fecha_consulta": "2026-11-03",
+    "url_exacta_evidencia": "https://github.com/MartinsMessias/computeruse",
+    "cita_textual_fuente": "\"OS-Native Windows Computer-Use Engine, CLI & MCP Server (54 Tools) in Pure Rust. Sub-millisecond Set-of-Marks UIA perception, atomic action pipelines, vector canvas engine & Per-Monitor DPI v2 input for AI Agents.\"",
+    "estado_verificacion": "VERIFICADO_OK",
+    "criterios_cumplidos": [
+      "Verificación HTTP 200 OK en perfil",
+      "Posee 3 repositorios públicos (Mínimo 3)",
+      "Demuestra stack activo de IA/agentes/integración",
+      "Señal comercial clara para Indie Builder / AI Developer (Lab Seat)"
+    ],
+    "tipo_comprador": "Indie Builder / AI Developer (Lab Seat)",
+    "repos_publicos": 3,
+    "stack_detectado": [
+      "Rust",
+      "C"
+    ],
+    "por_que_compraria": "Mantenedor de 'computeruse'. Requiere staging hosted 24/7.",
+    "objecion_esperada": "Prefiero ejecutar localmente en mi PC o servidor personal [HIPÓTESIS].",
+    "oferta_sugerida": "$6 Day Pass / $15 Trial",
+    "nivel_confianza": "Medio",
+    "mejor_siguiente_accion": "Ofrecer Day Pass ($6) para aislar ejecuciones sin agotar RAM local."
+  },
+  {
+    "handle": "sysevol-ai",
+    "canal": "GitHub",
+    "url_perfil": "https://github.com/sysevol-ai",
+    "fecha_consulta": "2026-11-03",
+    "url_exacta_evidencia": "https://github.com/sysevol-ai/CodeNib",
+    "cita_textual_fuente": "\"Find source context and trace calls across languages in Claude Code, Codex and other MCP agents.\"",
+    "estado_verificacion": "VERIFICADO_OK",
+    "criterios_cumplidos": [
+      "Verificación HTTP 200 OK en perfil",
+      "Posee 3 repositorios públicos (Mínimo 3)",
+      "Demuestra stack activo de IA/agentes/integración",
+      "Señal comercial clara para Indie Builder / AI Developer (Lab Seat)"
+    ],
+    "tipo_comprador": "Indie Builder / AI Developer (Lab Seat)",
+    "repos_publicos": 3,
+    "stack_detectado": [
+      "Python"
+    ],
+    "por_que_compraria": "Mantenedor de 'CodeNib'. Requiere staging hosted 24/7.",
+    "objecion_esperada": "Prefiero ejecutar localmente en mi PC o servidor personal [HIPÓTESIS].",
+    "oferta_sugerida": "$6 Day Pass / $15 Trial",
+    "nivel_confianza": "Medio",
+    "mejor_siguiente_accion": "Ofrecer Day Pass ($6) para aislar ejecuciones sin agotar RAM local."
+  },
+  {
+    "handle": "EthicalDigital",
+    "canal": "GitHub",
+    "url_perfil": "https://github.com/EthicalDigital",
+    "fecha_consulta": "2026-11-03",
+    "url_exacta_evidencia": "https://github.com/EthicalDigital/ahsuite-mcp",
+    "cita_textual_fuente": "\"Ahsuite MCP connector: run your agency's client portals from Claude and other AI assistants. Docs only; the server is hosted at https://ahsuite.com/api/mcp\"",
+    "estado_verificacion": "VERIFICADO_OK",
+    "criterios_cumplidos": [
+      "Verificación HTTP 200 OK en perfil",
+      "Posee 3 repositorios públicos (Mínimo 3)",
+      "Demuestra stack activo de IA/agentes/integración",
+      "Señal comercial clara para Indie Builder / AI Developer (Lab Seat)"
+    ],
+    "tipo_comprador": "Indie Builder / AI Developer (Lab Seat)",
+    "repos_publicos": 3,
+    "stack_detectado": [
+      "JavaScript"
+    ],
+    "por_que_compraria": "Mantenedor de 'ahsuite-mcp'. Requiere staging hosted 24/7.",
+    "objecion_esperada": "Prefiero ejecutar localmente en mi PC o servidor personal [HIPÓTESIS].",
     "oferta_sugerida": "$6 Day Pass / $15 Trial",
     "nivel_confianza": "Medio",
     "mejor_siguiente_accion": "Ofrecer Day Pass ($6) para aislar ejecuciones sin agotar RAM local."

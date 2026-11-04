@@ -1,20 +1,134 @@
 [
   {
-    "handle": "skulitom",
-    "profile_url": "https://github.com/skulitom",
-    "fecha_evaluacion": "2026-10-30 16:27:37",
-    "motivo_descarte": "Criterio Insuficiente: No se detectaron señales activas de agentes, MCP o automatización en repos recientes."
+    "handle": "clawboo",
+    "profile_url": "https://github.com/clawboo",
+    "fecha_evaluacion": "2026-11-03 19:06:40",
+    "motivo_descarte": "Criterio Insuficiente: Solo posee 2 repositorio(s) público(s). Mínimo requerido: 3."
   },
   {
-    "handle": "omothm",
-    "profile_url": "https://github.com/omothm",
-    "fecha_evaluacion": "2026-10-30 16:30:10",
-    "motivo_descarte": "Criterio Insuficiente: No se detectaron señales activas de agentes, MCP o automatización en repos recientes."
+    "handle": "marinomassimo-dot",
+    "profile_url": "https://github.com/marinomassimo-dot",
+    "fecha_evaluacion": "2026-11-03 19:07:31",
+    "motivo_descarte": "Criterio Insuficiente: Solo posee 2 repositorio(s) público(s). Mínimo requerido: 3."
   },
   {
-    "handle": "geekychris",
-    "profile_url": "https://github.com/geekychris",
-    "fecha_evaluacion": "2026-10-30 16:30:30",
+    "handle": "hyenayena",
+    "profile_url": "https://github.com/hyenayena",
+    "fecha_evaluacion": "2026-11-03 19:07:34",
+    "motivo_descarte": "Criterio Insuficiente: No detectó señales activas de agentes/MCP en repos."
+  },
+  {
+    "handle": "akshaydev-lab",
+    "profile_url": "https://github.com/akshaydev-lab",
+    "fecha_evaluacion": "2026-11-03 19:08:04",
+    "motivo_descarte": "Criterio Insuficiente: No detectó señales activas de agentes/MCP en repos."
+  },
+  {
+    "handle": "Kevin-Liu-01",
+    "profile_url": "https://github.com/Kevin-Liu-01",
+    "fecha_evaluacion": "2026-11-03 19:08:05",
     "motivo_descarte": "Error de API al consultar metadatos del usuario."
+  },
+  {
+    "handle": "luidji95",
+    "profile_url": "https://github.com/luidji95",
+    "fecha_evaluacion": "2026-11-03 19:08:07",
+    "motivo_descarte": "Error de API al consultar metadatos del usuario."
+  },
+  {
+    "handle": "amukwiita",
+    "profile_url": "https://github.com/amukwiita",
+    "fecha_evaluacion": "2026-11-03 19:08:08",
+    "motivo_descarte": "Error de API al consultar metadatos del usuario."
+  },
+  {
+    "handle": "Mensah-sudo",
+    "profile_url": "https://github.com/Mensah-sudo",
+    "fecha_evaluacion": "2026-11-03 19:08:09",
+    "motivo_descarte": "Error de API al consultar metadatos del usuario."
+  },
+  {
+    "handle": "gigtryinfo-dev",
+    "profile_url": "https://github.com/gigtryinfo-dev",
+    "fecha_evaluacion": "2026-11-03 19:08:11",
+    "motivo_descarte": "Error de API al consultar metadatos del usuario."
+  },
+  {
+    "handle": "Zurvel",
+    "profile_url": "https://github.com/Zurvel",
+    "fecha_evaluacion": "2026-11-03 19:08:12",
+    "motivo_descarte": "Error de API al consultar metadatos del usuario."
+  },
+  {
+    "handle": "jowikroon",
+    "profile_url": "https://github.com/jowikroon",
+    "fecha_evaluacion": "2026-11-03 19:08:13",
+    "motivo_descarte": "Error de API al consultar metadatos del usuario."
+  },
+  {
+    "handle": "sertysjr-ops",
+    "profile_url": "https://github.com/sertysjr-ops",
+    "fecha_evaluacion": "2026-11-03 19:08:14",
+    "motivo_descarte": "Error de API al consultar metadatos del usuario."
+  },
+  {
+    "handle": "ninjaDX27",
+    "profile_url": "https://github.com/ninjaDX27",
+    "fecha_evaluacion": "2026-11-03 19:08:16",
+    "motivo_descarte": "Error de API al consultar metadatos del usuario."
+  },
+  {
+    "handle": "AmjustGettingStarted",
+    "profile_url": "https://github.com/AmjustGettingStarted",
+    "fecha_evaluacion": "2026-11-03 19:08:17",
+    "motivo_descarte": "Error de API al consultar metadatos del usuario."
+  },
+  {
+    "handle": "jette-sketch",
+    "profile_url": "https://github.com/jette-sketch",
+    "fecha_evaluacion": "2026-11-03 19:08:19",
+    "motivo_descarte": "Error de API al consultar metadatos del usuario."
+  },
+  {
+    "handle": "hpratik2004",
+    "profile_url": "https://github.com/hpratik2004",
+    "fecha_evaluacion": "2026-11-03 19:08:20",
+    "motivo_descarte": "Error de API al consultar metadatos del usuario."
+  },
+  {
+    "handle": "dipubasu",
+    "profile_url": "https://github.com/dipubasu",
+    "fecha_evaluacion": "2026-11-03 19:08:21",
+    "motivo_descarte": "Error de API al consultar metadatos del usuario."
+  },
+  {
+    "handle": "n8n-io",
+    "profile_url": "https://github.com/n8n-io",
+    "fecha_evaluacion": "2026-11-03 19:08:23",
+    "motivo_descarte": "Error de API al consultar metadatos del usuario."
+  },
+  {
+    "handle": "sylamarie",
+    "profile_url": "https://github.com/sylamarie",
+    "fecha_evaluacion": "2026-11-03 19:08:24",
+    "motivo_descarte": "Error de API al consultar metadatos del usuario."
+  },
+  {
+    "handle": "aplanejamento-cloud",
+    "profile_url": "https://github.com/aplanejamento-cloud",
+    "fecha_evaluacion": "2026-11-03 19:08:25",
+    "motivo_descarte": "Error de API al consultar metadatos del usuario."
+  },
+  {
+    "handle": "HiyamBader",
+    "profile_url": "https://github.com/HiyamBader",
+    "fecha_evaluacion": "2026-11-03 19:08:31",
+    "motivo_descarte": "Criterio Insuficiente: Solo posee 2 repositorio(s) público(s). Mínimo requerido: 3."
+  },
+  {
+    "handle": "daemonless",
+    "profile_url": "https://github.com/daemonless",
+    "fecha_evaluacion": "2026-11-03 19:08:40",
+    "motivo_descarte": "Criterio Insuficiente: No detectó señales activas de agentes/MCP en repos."
   }
 ]
